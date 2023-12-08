@@ -1,0 +1,95 @@
+// 组件 demo 样式都写到 demo 文件夹下
+
+.arco-modal-content {
+  p {
+    margin: 0;
+  }
+}
+
+@demo-grid-color: #0092ff;
+
+.grid-demo-bg [class~='m-design-row'] {
+  background: rgba(128, 128, 128, 0.08);
+}
+
+.grid-demo {
+  .m-design-row > div {
+    min-height: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #fff;
+    text-align: center;
+    border-radius: 0;
+  }
+
+  .m-design-row > div:not(.gutter-row) {
+    padding: 16px 0;
+    background: @demo-grid-color;
+
+    &:nth-child(2n + 1) {
+      background: fade(@demo-grid-color, 75%);
+    }
+  }
+
+  .m-design-row .demo-col,
+  .m-design-row .demo-col {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 30px 0;
+    color: @white;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+  }
+
+  .m-design-row .demo-col-1 {
+    background: fade(@demo-grid-color, 75%);
+  }
+
+  .m-design-row .demo-col-2,
+  .m-design-row .demo-col-2 {
+    background: fade(@demo-grid-color, 50%);
+  }
+
+  .m-design-row .demo-col-3,
+  .m-design-row .demo-col-3 {
+    color: #999;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .m-design-row .demo-col-4,
+  .m-design-row .demo-col-4 {
+    background: fade(@demo-grid-color, 60%);
+  }
+
+  .m-design-row .demo-col-5,
+  .m-design-row .demo-col-5 {
+    color: #999;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .height-100 {
+    height: 100px;
+    line-height: 100px;
+  }
+
+  .height-50 {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .height-120 {
+    height: 120px;
+    line-height: 120px;
+  }
+
+  .height-80 {
+    height: 80px;
+    line-height: 80px;
+  }
+}
+
+.demo .m-design-btn {
+  margin-right: 8px;
+  // margin-bottom: 8px;
+}

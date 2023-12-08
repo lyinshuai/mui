@@ -1,0 +1,1927 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/button/demo/basic.md correctly 1`] = `
+Array [
+  <button
+    class="m-design-btn m-design-btn-primary"
+    type="button"
+  >
+    <span>
+      Primary Button
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-default"
+    type="button"
+  >
+    <span>
+      Default Button
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-dashed"
+    type="button"
+  >
+    <span>
+      Dashed Button
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-text"
+    type="button"
+  >
+    <span>
+      Text Button
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-link"
+    type="button"
+  >
+    <span>
+      Link Button
+    </span>
+  </button>,
+]
+`;
+
+exports[`renders ./components/button/demo/block.md correctly 1`] = `
+Array [
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-block"
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-default m-design-btn-block"
+    type="button"
+  >
+    <span>
+      Default
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-dashed m-design-btn-block"
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-link m-design-btn-block"
+    type="button"
+  >
+    <span>
+      Link
+    </span>
+  </button>,
+]
+`;
+
+exports[`renders ./components/button/demo/danger.md correctly 1`] = `
+Array [
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-default m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Default
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-dashed m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-text m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Text
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-link m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Link
+    </span>
+  </button>,
+]
+`;
+
+exports[`renders ./components/button/demo/disabled.md correctly 1`] = `
+Array [
+  <button
+    class="m-design-btn m-design-btn-primary"
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-primary"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Primary(disabled)
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-default"
+    type="button"
+  >
+    <span>
+      Default
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-default"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Default(disabled)
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-dashed"
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-dashed"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Dashed(disabled)
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-text"
+    type="button"
+  >
+    <span>
+      Text
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-text"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Text(disabled)
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-link"
+    type="button"
+  >
+    <span>
+      Link
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-link"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Link(disabled)
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Danger
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-dangerous"
+    disabled=""
+    type="button"
+  >
+    <span>
+      primary(disabled)
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-default m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Danger Default
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-default m-design-btn-dangerous"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Default(disabled)
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-text m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Danger Text
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-text m-design-btn-dangerous"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Text(disabled)
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-link m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Danger Link
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-link m-design-btn-dangerous"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Link(disabled)
+    </span>
+  </button>,
+  <div
+    class="site-button-ghost-wrapper"
+  >
+    <button
+      class="m-design-btn m-design-btn-default m-design-btn-background-ghost"
+      type="button"
+    >
+      <span>
+        Ghost
+      </span>
+    </button>
+    <button
+      class="m-design-btn m-design-btn-default m-design-btn-background-ghost"
+      disabled=""
+      type="button"
+    >
+      <span>
+        Ghost(disabled)
+      </span>
+    </button>
+    <button
+      class="m-design-btn m-design-btn-default m-design-btn-background-ghost m-design-btn-dangerous"
+      type="button"
+    >
+      <span>
+        Danger Ghost
+      </span>
+    </button>
+    <button
+      class="m-design-btn m-design-btn-default m-design-btn-background-ghost m-design-btn-dangerous"
+      disabled=""
+      type="button"
+    >
+      <span>
+        Danger Ghost(disabled)
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`renders ./components/button/demo/ghost.md correctly 1`] = `
+<div
+  class="site-button-ghost-wrapper"
+>
+  <h4>
+    normal
+  </h4>
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-background-ghost"
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-default m-design-btn-background-ghost"
+    type="button"
+  >
+    <span>
+      Default
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-dashed m-design-btn-background-ghost"
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-text"
+    type="button"
+  >
+    <span>
+      Text
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-link"
+    type="button"
+  >
+    <span>
+      Link
+    </span>
+  </button>
+  <br />
+  <br />
+  <h4>
+    danger
+  </h4>
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-background-ghost m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-default m-design-btn-background-ghost m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Default
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-dashed m-design-btn-background-ghost m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-text m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Text
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-link m-design-btn-dangerous"
+    type="button"
+  >
+    <span>
+      Link
+    </span>
+  </button>
+  <br />
+  <br />
+  <h4>
+    normal disabled
+  </h4>
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-background-ghost"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-default m-design-btn-background-ghost"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Default
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-dashed m-design-btn-background-ghost"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-text"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Text
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-link"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Link
+    </span>
+  </button>
+  <br />
+  <br />
+  <h4>
+    danger disabled
+  </h4>
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-background-ghost m-design-btn-dangerous"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-default m-design-btn-background-ghost m-design-btn-dangerous"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Default
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-dashed m-design-btn-background-ghost m-design-btn-dangerous"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-text m-design-btn-dangerous"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Text
+    </span>
+  </button>
+  <button
+    class="m-design-btn m-design-btn-link m-design-btn-dangerous"
+    disabled=""
+    type="button"
+  >
+    <span>
+      Link
+    </span>
+  </button>
+  <br />
+  <br />
+</div>
+`;
+
+exports[`renders ./components/button/demo/icon.md correctly 1`] = `
+Array [
+  <button
+    class="m-design-btn m-design-btn-circle m-design-btn-primary m-design-btn-icon-only"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-circle m-design-btn-primary"
+    type="button"
+  >
+    <span>
+      A
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-primary"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+    <span>
+      Search
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-circle m-design-btn-default m-design-btn-icon-only"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-default"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+    <span>
+      Search
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-circle m-design-btn-default m-design-btn-icon-only"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-default"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+    <span>
+      Search
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-circle m-design-btn-dashed m-design-btn-icon-only"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-dashed"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+    <span>
+      Search
+    </span>
+  </button>,
+  <a
+    class="m-design-btn m-design-btn-default m-design-btn-icon-only"
+    href="https://www.google.com"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+  </a>,
+  <br />,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-circle m-design-btn-primary m-design-btn-lg m-design-btn-icon-only"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-circle m-design-btn-primary m-design-btn-lg"
+    type="button"
+  >
+    <span>
+      A
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-lg"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+    <span>
+      Search
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-circle m-design-btn-default m-design-btn-lg m-design-btn-icon-only"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-default m-design-btn-lg"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+    <span>
+      Search
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-circle m-design-btn-default m-design-btn-lg m-design-btn-icon-only"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-default m-design-btn-lg"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+    <span>
+      Search
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-circle m-design-btn-dashed m-design-btn-lg m-design-btn-icon-only"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-dashed m-design-btn-lg"
+    type="button"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+    <span>
+      Search
+    </span>
+  </button>,
+  <a
+    class="m-design-btn m-design-btn-default m-design-btn-lg m-design-btn-icon-only"
+    href="https://www.google.com"
+  >
+    <span
+      aria-label="search"
+      class="anticon anticon-search"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="search"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+        />
+      </svg>
+    </span>
+  </a>,
+]
+`;
+
+exports[`renders ./components/button/demo/legacy-group.md correctly 1`] = `
+Array [
+  <div>
+    <div
+      class="m-design-btn-group m-design-btn-group-sm"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary"
+        type="button"
+      >
+        <span>
+          Button 1
+        </span>
+      </button>
+      <button
+        class="m-design-btn m-design-btn-primary"
+        type="button"
+      >
+        <span>
+          Button 2
+        </span>
+      </button>
+      <span
+        class="m-design-tooltip-disabled-compatible-wrapper"
+        style="display:inline-block;cursor:not-allowed"
+      >
+        <button
+          class="m-design-btn m-design-btn-primary m-design-btn-icon-only"
+          disabled=""
+          style="pointer-events:none"
+          type="button"
+        >
+          <span
+            aria-label="download"
+            class="anticon anticon-download"
+            role="img"
+          >
+            <svg
+              aria-hidden="true"
+              data-icon="download"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
+              />
+            </svg>
+          </span>
+        </button>
+      </span>
+      <button
+        class="m-design-btn m-design-btn-primary m-design-btn-icon-only"
+        type="button"
+      >
+        <span
+          aria-label="download"
+          class="anticon anticon-download"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="download"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>,
+  <br />,
+  <div>
+    <div
+      class="m-design-btn-group"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary"
+        type="button"
+      >
+        <span>
+          Button 1
+        </span>
+      </button>
+      <button
+        class="m-design-btn m-design-btn-primary"
+        type="button"
+      >
+        <span>
+          Button 2
+        </span>
+      </button>
+      <span
+        class="m-design-tooltip-disabled-compatible-wrapper"
+        style="display:inline-block;cursor:not-allowed"
+      >
+        <button
+          class="m-design-btn m-design-btn-primary m-design-btn-icon-only"
+          disabled=""
+          style="pointer-events:none"
+          type="button"
+        >
+          <span
+            aria-label="download"
+            class="anticon anticon-download"
+            role="img"
+          >
+            <svg
+              aria-hidden="true"
+              data-icon="download"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
+              />
+            </svg>
+          </span>
+        </button>
+      </span>
+      <button
+        class="m-design-btn m-design-btn-primary m-design-btn-icon-only"
+        type="button"
+      >
+        <span
+          aria-label="download"
+          class="anticon anticon-download"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="download"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>,
+  <br />,
+  <div>
+    <div
+      class="m-design-btn-group m-design-btn-group-lg"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary"
+        type="button"
+      >
+        <span>
+          Button 1
+        </span>
+      </button>
+      <button
+        class="m-design-btn m-design-btn-primary"
+        type="button"
+      >
+        <span>
+          Button 2
+        </span>
+      </button>
+      <span
+        class="m-design-tooltip-disabled-compatible-wrapper"
+        style="display:inline-block;cursor:not-allowed"
+      >
+        <button
+          class="m-design-btn m-design-btn-primary m-design-btn-icon-only"
+          disabled=""
+          style="pointer-events:none"
+          type="button"
+        >
+          <span
+            aria-label="download"
+            class="anticon anticon-download"
+            role="img"
+          >
+            <svg
+              aria-hidden="true"
+              data-icon="download"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
+              />
+            </svg>
+          </span>
+        </button>
+      </span>
+      <button
+        class="m-design-btn m-design-btn-primary m-design-btn-icon-only"
+        type="button"
+      >
+        <span
+          aria-label="download"
+          class="anticon anticon-download"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="download"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/button/demo/loading.md correctly 1`] = `
+Array [
+  <div
+    class="m-design-space m-design-space-horizontal m-design-space-align-center"
+    style="width:100%"
+  >
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary m-design-btn-loading"
+        type="button"
+      >
+        <span
+          class="m-design-btn-loading-icon"
+        >
+          <span
+            class="anticon result-loading-icon"
+            role="img"
+          >
+            <img
+              alt="loading"
+              class="anticon-spin"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAA0BJREFUSEutlk+oV0UUxz9fUzHLLEolEVLECPojGCooUTxTV6IYSAtpIWIFoZWrtu6UyI0bwYXgok1I8igRhShXr0AyFEExkQqhEvHxRMV8J74/5jzG2/39Md/AMPfemTmfc84958yIAVpEPAk8A3h8DJgC3Afuln4LuCXJ7z2bes1GxDxgITC9AAxx/6cx5jcDb0q63U1uKzAiZgJLi0VtkBrYBjd4VJL3PtD+A4yI54DXi9vGW6wxwP1eGfO9tjyVHJPk+Yn2ADAi5gCrAYPcm+7z5lHgToF5v/9nGzT3364tnQCWwFgDTK1gCRwDLgN/NzWOCAfRDOAJIBr/OhW/K8lz1MD1JRJTsxwvGCbJ711bRFjW48C0Aq3ljKeVHWBEvAC8UTSsF45I+q1fqNfzEWFg7SXDxiNihqQ7CXynRKTNTjf8Iuncw8BybUQYmLJmA0PAEkl7VaJyU7XAC28Cx/q5sZsyxb3O3c3A28Aq4CVgmYHL/VCAqdUPki79H+sqK9cC3xb35uc9Btq6+QXoCbv08CBlqk8QuRT+2QB+Z+B7wNMV0KH/5aNYV1l5FnitknXRwI9KKOf3q5KOThLwOOB06+Rgp8BHxK5SnJNxRdJXkwQcBtZV+T5m4Psl4bMQ/CXp0CQBR4BXKuBlA7cCTnznZFaez3sdMYMoExGOC5dD52TKPm3gW8Cb1UdPfi3pzCCCe+Tiu8CBItcF3nL3Gfg88GEF9OQN4Iu282wQJUql+R5YXE6TtHAoS9sngI8mw7KflHRiEEBzTURY3qeVLHN+lbQqga8C/pc10MfOEUk/PQw0IjYA+6u7T8r8QNJwfTztLPeXXGCgu8vTN/3cW9y4A3Be517L8vPPkjZmGnQMiIhngd3ArGJpbvJ4HXBOnZHkw3iiRcRT5WjbDiwqUZk3O4++IWzMY655xVgC2FKHcg30u7s1vlZOE8/7VufA8Inv9+Y+1+VtkpyPndZ2iXqxRK0tTWgKSnC3sVbSnvhY0o+1R7pdEx2xrkC2uM3StKZWpLbwPPCZpN+bAdfvIrwC2AIsaHFZE2bgH8BBSae6RXZPYG6KCAfDSuDlkq9ziwIuEO6+ipyWdLFfCv0LF19baDnvHwQAAAAASUVORK5CYII="
+              style="width:1em;height:1em;display:block"
+            />
+          </span>
+        </span>
+        <span>
+          Loading
+        </span>
+      </button>
+    </div>
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary m-design-btn-sm m-design-btn-loading"
+        type="button"
+      >
+        <span
+          class="m-design-btn-loading-icon"
+        >
+          <span
+            class="anticon result-loading-icon"
+            role="img"
+          >
+            <img
+              alt="loading"
+              class="anticon-spin"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAA0BJREFUSEutlk+oV0UUxz9fUzHLLEolEVLECPojGCooUTxTV6IYSAtpIWIFoZWrtu6UyI0bwYXgok1I8igRhShXr0AyFEExkQqhEvHxRMV8J74/5jzG2/39Md/AMPfemTmfc84958yIAVpEPAk8A3h8DJgC3Afuln4LuCXJ7z2bes1GxDxgITC9AAxx/6cx5jcDb0q63U1uKzAiZgJLi0VtkBrYBjd4VJL3PtD+A4yI54DXi9vGW6wxwP1eGfO9tjyVHJPk+Yn2ADAi5gCrAYPcm+7z5lHgToF5v/9nGzT3364tnQCWwFgDTK1gCRwDLgN/NzWOCAfRDOAJIBr/OhW/K8lz1MD1JRJTsxwvGCbJ711bRFjW48C0Aq3ljKeVHWBEvAC8UTSsF45I+q1fqNfzEWFg7SXDxiNihqQ7CXynRKTNTjf8Iuncw8BybUQYmLJmA0PAEkl7VaJyU7XAC28Cx/q5sZsyxb3O3c3A28Aq4CVgmYHL/VCAqdUPki79H+sqK9cC3xb35uc9Btq6+QXoCbv08CBlqk8QuRT+2QB+Z+B7wNMV0KH/5aNYV1l5FnitknXRwI9KKOf3q5KOThLwOOB06+Rgp8BHxK5SnJNxRdJXkwQcBtZV+T5m4Psl4bMQ/CXp0CQBR4BXKuBlA7cCTnznZFaez3sdMYMoExGOC5dD52TKPm3gW8Cb1UdPfi3pzCCCe+Tiu8CBItcF3nL3Gfg88GEF9OQN4Iu282wQJUql+R5YXE6TtHAoS9sngI8mw7KflHRiEEBzTURY3qeVLHN+lbQqga8C/pc10MfOEUk/PQw0IjYA+6u7T8r8QNJwfTztLPeXXGCgu8vTN/3cW9y4A3Be517L8vPPkjZmGnQMiIhngd3ArGJpbvJ4HXBOnZHkw3iiRcRT5WjbDiwqUZk3O4++IWzMY655xVgC2FKHcg30u7s1vlZOE8/7VufA8Inv9+Y+1+VtkpyPndZ2iXqxRK0tTWgKSnC3sVbSnvhY0o+1R7pdEx2xrkC2uM3StKZWpLbwPPCZpN+bAdfvIrwC2AIsaHFZE2bgH8BBSae6RXZPYG6KCAfDSuDlkq9ziwIuEO6+ipyWdLFfCv0LF19baDnvHwQAAAAASUVORK5CYII="
+              style="width:1em;height:1em;display:block"
+            />
+          </span>
+        </span>
+        <span>
+          Loading
+        </span>
+      </button>
+    </div>
+    <div
+      class="m-design-space-item"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary m-design-btn-icon-only m-design-btn-loading"
+        type="button"
+      >
+        <span
+          class="m-design-btn-loading-icon"
+        >
+          <span
+            class="anticon result-loading-icon"
+            role="img"
+          >
+            <img
+              alt="loading"
+              class="anticon-spin"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAA0BJREFUSEutlk+oV0UUxz9fUzHLLEolEVLECPojGCooUTxTV6IYSAtpIWIFoZWrtu6UyI0bwYXgok1I8igRhShXr0AyFEExkQqhEvHxRMV8J74/5jzG2/39Md/AMPfemTmfc84958yIAVpEPAk8A3h8DJgC3Afuln4LuCXJ7z2bes1GxDxgITC9AAxx/6cx5jcDb0q63U1uKzAiZgJLi0VtkBrYBjd4VJL3PtD+A4yI54DXi9vGW6wxwP1eGfO9tjyVHJPk+Yn2ADAi5gCrAYPcm+7z5lHgToF5v/9nGzT3364tnQCWwFgDTK1gCRwDLgN/NzWOCAfRDOAJIBr/OhW/K8lz1MD1JRJTsxwvGCbJ711bRFjW48C0Aq3ljKeVHWBEvAC8UTSsF45I+q1fqNfzEWFg7SXDxiNihqQ7CXynRKTNTjf8Iuncw8BybUQYmLJmA0PAEkl7VaJyU7XAC28Cx/q5sZsyxb3O3c3A28Aq4CVgmYHL/VCAqdUPki79H+sqK9cC3xb35uc9Btq6+QXoCbv08CBlqk8QuRT+2QB+Z+B7wNMV0KH/5aNYV1l5FnitknXRwI9KKOf3q5KOThLwOOB06+Rgp8BHxK5SnJNxRdJXkwQcBtZV+T5m4Psl4bMQ/CXp0CQBR4BXKuBlA7cCTnznZFaez3sdMYMoExGOC5dD52TKPm3gW8Cb1UdPfi3pzCCCe+Tiu8CBItcF3nL3Gfg88GEF9OQN4Iu282wQJUql+R5YXE6TtHAoS9sngI8mw7KflHRiEEBzTURY3qeVLHN+lbQqga8C/pc10MfOEUk/PQw0IjYA+6u7T8r8QNJwfTztLPeXXGCgu8vTN/3cW9y4A3Be517L8vPPkjZmGnQMiIhngd3ArGJpbvJ4HXBOnZHkw3iiRcRT5WjbDiwqUZk3O4++IWzMY655xVgC2FKHcg30u7s1vlZOE8/7VufA8Inv9+Y+1+VtkpyPndZ2iXqxRK0tTWgKSnC3sVbSnvhY0o+1R7pdEx2xrkC2uM3StKZWpLbwPPCZpN+bAdfvIrwC2AIsaHFZE2bgH8BBSae6RXZPYG6KCAfDSuDlkq9ziwIuEO6+ipyWdLFfCv0LF19baDnvHwQAAAAASUVORK5CYII="
+              style="width:1em;height:1em;display:block"
+            />
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>,
+  <div
+    class="m-design-space m-design-space-horizontal m-design-space-align-center"
+    style="width:100%"
+  >
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary m-design-btn-loading m-design-btn-dangerous"
+        type="button"
+      >
+        <span
+          class="m-design-btn-loading-icon"
+        >
+          <span
+            class="anticon result-loading-icon"
+            role="img"
+          >
+            <img
+              alt="loading"
+              class="anticon-spin"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAA0BJREFUSEutlk+oV0UUxz9fUzHLLEolEVLECPojGCooUTxTV6IYSAtpIWIFoZWrtu6UyI0bwYXgok1I8igRhShXr0AyFEExkQqhEvHxRMV8J74/5jzG2/39Md/AMPfemTmfc84958yIAVpEPAk8A3h8DJgC3Afuln4LuCXJ7z2bes1GxDxgITC9AAxx/6cx5jcDb0q63U1uKzAiZgJLi0VtkBrYBjd4VJL3PtD+A4yI54DXi9vGW6wxwP1eGfO9tjyVHJPk+Yn2ADAi5gCrAYPcm+7z5lHgToF5v/9nGzT3364tnQCWwFgDTK1gCRwDLgN/NzWOCAfRDOAJIBr/OhW/K8lz1MD1JRJTsxwvGCbJ711bRFjW48C0Aq3ljKeVHWBEvAC8UTSsF45I+q1fqNfzEWFg7SXDxiNihqQ7CXynRKTNTjf8Iuncw8BybUQYmLJmA0PAEkl7VaJyU7XAC28Cx/q5sZsyxb3O3c3A28Aq4CVgmYHL/VCAqdUPki79H+sqK9cC3xb35uc9Btq6+QXoCbv08CBlqk8QuRT+2QB+Z+B7wNMV0KH/5aNYV1l5FnitknXRwI9KKOf3q5KOThLwOOB06+Rgp8BHxK5SnJNxRdJXkwQcBtZV+T5m4Psl4bMQ/CXp0CQBR4BXKuBlA7cCTnznZFaez3sdMYMoExGOC5dD52TKPm3gW8Cb1UdPfi3pzCCCe+Tiu8CBItcF3nL3Gfg88GEF9OQN4Iu282wQJUql+R5YXE6TtHAoS9sngI8mw7KflHRiEEBzTURY3qeVLHN+lbQqga8C/pc10MfOEUk/PQw0IjYA+6u7T8r8QNJwfTztLPeXXGCgu8vTN/3cW9y4A3Be517L8vPPkjZmGnQMiIhngd3ArGJpbvJ4HXBOnZHkw3iiRcRT5WjbDiwqUZk3O4++IWzMY655xVgC2FKHcg30u7s1vlZOE8/7VufA8Inv9+Y+1+VtkpyPndZ2iXqxRK0tTWgKSnC3sVbSnvhY0o+1R7pdEx2xrkC2uM3StKZWpLbwPPCZpN+bAdfvIrwC2AIsaHFZE2bgH8BBSae6RXZPYG6KCAfDSuDlkq9ziwIuEO6+ipyWdLFfCv0LF19baDnvHwQAAAAASUVORK5CYII="
+              style="width:1em;height:1em;display:block"
+            />
+          </span>
+        </span>
+        <span>
+          Loading
+        </span>
+      </button>
+    </div>
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary m-design-btn-sm m-design-btn-background-ghost m-design-btn-loading m-design-btn-dangerous"
+        type="button"
+      >
+        <span
+          class="m-design-btn-loading-icon"
+        >
+          <span
+            class="anticon result-loading-icon"
+            role="img"
+          >
+            <img
+              alt="loading"
+              class="anticon-spin"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAABSpJREFUSEutlltonEUYht93ZnaTaq3GsyJ0N6aeD9BWhRaxeLwSRbF4oVJEPGFNtlHQK413HmhSFUEQFLzwoiJKUREFTxdShaLiAbVJtlgVT8TGpMluZr5X5s9ujLVNW+3e/Oz/z8zzvd9xiAP4nXW3Fjc60RUNi4PBWxkuJaQSGo0pdjS6hMlGxOT2p9jY33FcaEG1VycIqCSHsktIJFJKM8mHUowRyQfEOIPkXCOFckeUQyNG7No5yKl9nbtX4IqHddiuP+L5TYXFGcIUk/kQMzQFRC/EGJvJh3JMhujcdJqxzug9Umgg2RI0LlqO8c1rmfYE/wt4Wr+ObUasEOGoaKYQnUMyQ6SLyaToDNFYmvGGGEuIQYjNJlKpjDgdkMIUUqmEVDkSE+8NMM6H/gPYs17HRZ9WJ3kjkmV1ko9kBoXoFKMhjJc9ppMQO+I0d7PTBUOcKSNmdc1FiGE30p8JFgLSml8xtXnz30rngDkxdnfgMhkClMzok8vuVFYTJ1wpDFcOw297WnzDDfLfLEXnJHD4ZAPKkMlJpPwsRVi5Cas/jwZIZaVzwErvzFUQuwww0qdZKFJJ/uubuzA8MEBbKMEkceUAFo39iNKfLdiPHUhowDAGQ0tlAaz2a2mKuJhMYguYlKzk/Nbhjfx+f6k+//uK21X6+XCEnXG74eienDSGAVplnTrrL3C6AHb3xuvN+cVmScBs/IL858NP8ouDgc2tfUgBX0HYDKv04UgBl9LZsvpG/yhzVjZSuhaC6LxBSSJ2rVviX9ufG/dtjNizHuXocZ1gl5NcBeCMQC5nd68uMGA5CJlSAfUBH4w8zu/+k7rWpmr/zBVm/g0CoX2Oc3yElf54rcyfTEHZ3RAsmHvhQNrUQgad+4C6Jpr4RdIcEOS7rPbqlgQ7CnQF0MH9Vh/iS/9HXXtvtabPBJ3X/k/yW1ZrukdACTab9Y7aMTIUXjkUwErN3oRwVQ5XqwYnWampV2blOT/TjY4O8eVDAazWbIuAK6FWvRMTrPSmO+BcVwFQ7mbu19EhPndIgH22VcA57QZDYZjVDfEmM7+0sIJGB+BEuic+WmDEHIgxlT4dBWoYKrI09zUS/JA9fVoTYZcUVggUHYGZV3cMlbcdyMH7WlOp6UZITxccKOsgycd4Zp9O2g27C3LMGpnzhja2cqfbOL/LHwx8zUMK9XG9D+HUnIctdbl9X1q0tkot1SB3HGBOQrbGEe7t+ia+dTCg9truWqol44ZsfD4rCwE5Uh/kqtleWtO5JtwkWBvmBPNe7sWRTfzkYKDVmq6WMAjIt9TlGGWv3Tk6GLbMG0/p3iwWzC5wDjJPwlPujZWr8frergvzDcluHB232yneAyDDPEgHFeBP60PumlYtzm4740EdMz2FfsmOKFxK+Dw6KOdJ+x3ebVk0hW1fPcOJ+aCe9b8vMX/0xQBuM6gqIFAZVsTOUxj3nte0x9w/rhjd92tZatq9hAtylhd7wPncXnMTzvF1zv0EYReYv9kJkjsVUidIj9w3i/fwyHsdDMZb65u4da697Rmf7g06zczuEt0RlHnBecJyLXmA+RmK2mKur9Z/qnhXKGq7E5ggY9/oYPnj+Yy9XhPzZSo5u0PEspZbfJ5bnFUQ5tQUo4deUCDp82TIXqHTl77kHtz+GHfuKWjhi3BNF8JsrYhTZpUWoyYnQ+E+kYURbWUEfiDSsyNDpXf2ldkLAtubTr9P1UZKFxE8W7leqeOLGJFjkI1R+oLefziykd/ur4T+AvEQmz0JR0waAAAAAElFTkSuQmCC"
+              style="width:1em;height:1em;display:block"
+            />
+          </span>
+        </span>
+        <span>
+          Loading
+        </span>
+      </button>
+    </div>
+    <div
+      class="m-design-space-item"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary m-design-btn-icon-only m-design-btn-background-ghost m-design-btn-loading"
+        type="button"
+      >
+        <span
+          class="m-design-btn-loading-icon"
+        >
+          <span
+            class="anticon result-loading-icon"
+            role="img"
+          >
+            <img
+              alt="loading"
+              class="anticon-spin"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAABSpJREFUSEutlltonEUYht93ZnaTaq3GsyJ0N6aeD9BWhRaxeLwSRbF4oVJEPGFNtlHQK413HmhSFUEQFLzwoiJKUREFTxdShaLiAbVJtlgVT8TGpMluZr5X5s9ujLVNW+3e/Oz/z8zzvd9xiAP4nXW3Fjc60RUNi4PBWxkuJaQSGo0pdjS6hMlGxOT2p9jY33FcaEG1VycIqCSHsktIJFJKM8mHUowRyQfEOIPkXCOFckeUQyNG7No5yKl9nbtX4IqHddiuP+L5TYXFGcIUk/kQMzQFRC/EGJvJh3JMhujcdJqxzug9Umgg2RI0LlqO8c1rmfYE/wt4Wr+ObUasEOGoaKYQnUMyQ6SLyaToDNFYmvGGGEuIQYjNJlKpjDgdkMIUUqmEVDkSE+8NMM6H/gPYs17HRZ9WJ3kjkmV1ko9kBoXoFKMhjJc9ppMQO+I0d7PTBUOcKSNmdc1FiGE30p8JFgLSml8xtXnz30rngDkxdnfgMhkClMzok8vuVFYTJ1wpDFcOw297WnzDDfLfLEXnJHD4ZAPKkMlJpPwsRVi5Cas/jwZIZaVzwErvzFUQuwww0qdZKFJJ/uubuzA8MEBbKMEkceUAFo39iNKfLdiPHUhowDAGQ0tlAaz2a2mKuJhMYguYlKzk/Nbhjfx+f6k+//uK21X6+XCEnXG74eienDSGAVplnTrrL3C6AHb3xuvN+cVmScBs/IL858NP8ouDgc2tfUgBX0HYDKv04UgBl9LZsvpG/yhzVjZSuhaC6LxBSSJ2rVviX9ufG/dtjNizHuXocZ1gl5NcBeCMQC5nd68uMGA5CJlSAfUBH4w8zu/+k7rWpmr/zBVm/g0CoX2Oc3yElf54rcyfTEHZ3RAsmHvhQNrUQgad+4C6Jpr4RdIcEOS7rPbqlgQ7CnQF0MH9Vh/iS/9HXXtvtabPBJ3X/k/yW1ZrukdACTab9Y7aMTIUXjkUwErN3oRwVQ5XqwYnWampV2blOT/TjY4O8eVDAazWbIuAK6FWvRMTrPSmO+BcVwFQ7mbu19EhPndIgH22VcA57QZDYZjVDfEmM7+0sIJGB+BEuic+WmDEHIgxlT4dBWoYKrI09zUS/JA9fVoTYZcUVggUHYGZV3cMlbcdyMH7WlOp6UZITxccKOsgycd4Zp9O2g27C3LMGpnzhja2cqfbOL/LHwx8zUMK9XG9D+HUnIctdbl9X1q0tkot1SB3HGBOQrbGEe7t+ia+dTCg9truWqol44ZsfD4rCwE5Uh/kqtleWtO5JtwkWBvmBPNe7sWRTfzkYKDVmq6WMAjIt9TlGGWv3Tk6GLbMG0/p3iwWzC5wDjJPwlPujZWr8frergvzDcluHB232yneAyDDPEgHFeBP60PumlYtzm4740EdMz2FfsmOKFxK+Dw6KOdJ+x3ebVk0hW1fPcOJ+aCe9b8vMX/0xQBuM6gqIFAZVsTOUxj3nte0x9w/rhjd92tZatq9hAtylhd7wPncXnMTzvF1zv0EYReYv9kJkjsVUidIj9w3i/fwyHsdDMZb65u4da697Rmf7g06zczuEt0RlHnBecJyLXmA+RmK2mKur9Z/qnhXKGq7E5ggY9/oYPnj+Yy9XhPzZSo5u0PEspZbfJ5bnFUQ5tQUo4deUCDp82TIXqHTl77kHtz+GHfuKWjhi3BNF8JsrYhTZpUWoyYnQ+E+kYURbWUEfiDSsyNDpXf2ldkLAtubTr9P1UZKFxE8W7leqeOLGJFjkI1R+oLefziykd/ur4T+AvEQmz0JR0waAAAAAElFTkSuQmCC"
+              style="width:1em;height:1em;display:block"
+            />
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>,
+  <div
+    class="m-design-space m-design-space-horizontal m-design-space-align-center"
+    style="width:100%"
+  >
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <button
+        class="m-design-btn m-design-btn-default m-design-btn-loading"
+        type="button"
+      >
+        <span
+          class="m-design-btn-loading-icon"
+        >
+          <span
+            class="anticon result-loading-icon"
+            role="img"
+          >
+            <img
+              alt="loading"
+              class="anticon-spin"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAABSpJREFUSEutlltonEUYht93ZnaTaq3GsyJ0N6aeD9BWhRaxeLwSRbF4oVJEPGFNtlHQK413HmhSFUEQFLzwoiJKUREFTxdShaLiAbVJtlgVT8TGpMluZr5X5s9ujLVNW+3e/Oz/z8zzvd9xiAP4nXW3Fjc60RUNi4PBWxkuJaQSGo0pdjS6hMlGxOT2p9jY33FcaEG1VycIqCSHsktIJFJKM8mHUowRyQfEOIPkXCOFckeUQyNG7No5yKl9nbtX4IqHddiuP+L5TYXFGcIUk/kQMzQFRC/EGJvJh3JMhujcdJqxzug9Umgg2RI0LlqO8c1rmfYE/wt4Wr+ObUasEOGoaKYQnUMyQ6SLyaToDNFYmvGGGEuIQYjNJlKpjDgdkMIUUqmEVDkSE+8NMM6H/gPYs17HRZ9WJ3kjkmV1ko9kBoXoFKMhjJc9ppMQO+I0d7PTBUOcKSNmdc1FiGE30p8JFgLSml8xtXnz30rngDkxdnfgMhkClMzok8vuVFYTJ1wpDFcOw297WnzDDfLfLEXnJHD4ZAPKkMlJpPwsRVi5Cas/jwZIZaVzwErvzFUQuwww0qdZKFJJ/uubuzA8MEBbKMEkceUAFo39iNKfLdiPHUhowDAGQ0tlAaz2a2mKuJhMYguYlKzk/Nbhjfx+f6k+//uK21X6+XCEnXG74eienDSGAVplnTrrL3C6AHb3xuvN+cVmScBs/IL858NP8ouDgc2tfUgBX0HYDKv04UgBl9LZsvpG/yhzVjZSuhaC6LxBSSJ2rVviX9ufG/dtjNizHuXocZ1gl5NcBeCMQC5nd68uMGA5CJlSAfUBH4w8zu/+k7rWpmr/zBVm/g0CoX2Oc3yElf54rcyfTEHZ3RAsmHvhQNrUQgad+4C6Jpr4RdIcEOS7rPbqlgQ7CnQF0MH9Vh/iS/9HXXtvtabPBJ3X/k/yW1ZrukdACTab9Y7aMTIUXjkUwErN3oRwVQ5XqwYnWampV2blOT/TjY4O8eVDAazWbIuAK6FWvRMTrPSmO+BcVwFQ7mbu19EhPndIgH22VcA57QZDYZjVDfEmM7+0sIJGB+BEuic+WmDEHIgxlT4dBWoYKrI09zUS/JA9fVoTYZcUVggUHYGZV3cMlbcdyMH7WlOp6UZITxccKOsgycd4Zp9O2g27C3LMGpnzhja2cqfbOL/LHwx8zUMK9XG9D+HUnIctdbl9X1q0tkot1SB3HGBOQrbGEe7t+ia+dTCg9truWqol44ZsfD4rCwE5Uh/kqtleWtO5JtwkWBvmBPNe7sWRTfzkYKDVmq6WMAjIt9TlGGWv3Tk6GLbMG0/p3iwWzC5wDjJPwlPujZWr8frergvzDcluHB232yneAyDDPEgHFeBP60PumlYtzm4740EdMz2FfsmOKFxK+Dw6KOdJ+x3ebVk0hW1fPcOJ+aCe9b8vMX/0xQBuM6gqIFAZVsTOUxj3nte0x9w/rhjd92tZatq9hAtylhd7wPncXnMTzvF1zv0EYReYv9kJkjsVUidIj9w3i/fwyHsdDMZb65u4da697Rmf7g06zczuEt0RlHnBecJyLXmA+RmK2mKur9Z/qnhXKGq7E5ggY9/oYPnj+Yy9XhPzZSo5u0PEspZbfJ5bnFUQ5tQUo4deUCDp82TIXqHTl77kHtz+GHfuKWjhi3BNF8JsrYhTZpUWoyYnQ+E+kYURbWUEfiDSsyNDpXf2ldkLAtubTr9P1UZKFxE8W7leqeOLGJFjkI1R+oLefziykd/ur4T+AvEQmz0JR0waAAAAAElFTkSuQmCC"
+              style="width:1em;height:1em;display:block"
+            />
+          </span>
+        </span>
+        <span>
+          Default Button
+        </span>
+      </button>
+    </div>
+    <div
+      class="m-design-space-item"
+    >
+      <button
+        class="m-design-btn m-design-btn-dashed m-design-btn-loading"
+        type="button"
+      >
+        <span
+          class="m-design-btn-loading-icon"
+        >
+          <span
+            class="anticon result-loading-icon"
+            role="img"
+          >
+            <img
+              alt="loading"
+              class="anticon-spin"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAABSpJREFUSEutlltonEUYht93ZnaTaq3GsyJ0N6aeD9BWhRaxeLwSRbF4oVJEPGFNtlHQK413HmhSFUEQFLzwoiJKUREFTxdShaLiAbVJtlgVT8TGpMluZr5X5s9ujLVNW+3e/Oz/z8zzvd9xiAP4nXW3Fjc60RUNi4PBWxkuJaQSGo0pdjS6hMlGxOT2p9jY33FcaEG1VycIqCSHsktIJFJKM8mHUowRyQfEOIPkXCOFckeUQyNG7No5yKl9nbtX4IqHddiuP+L5TYXFGcIUk/kQMzQFRC/EGJvJh3JMhujcdJqxzug9Umgg2RI0LlqO8c1rmfYE/wt4Wr+ObUasEOGoaKYQnUMyQ6SLyaToDNFYmvGGGEuIQYjNJlKpjDgdkMIUUqmEVDkSE+8NMM6H/gPYs17HRZ9WJ3kjkmV1ko9kBoXoFKMhjJc9ppMQO+I0d7PTBUOcKSNmdc1FiGE30p8JFgLSml8xtXnz30rngDkxdnfgMhkClMzok8vuVFYTJ1wpDFcOw297WnzDDfLfLEXnJHD4ZAPKkMlJpPwsRVi5Cas/jwZIZaVzwErvzFUQuwww0qdZKFJJ/uubuzA8MEBbKMEkceUAFo39iNKfLdiPHUhowDAGQ0tlAaz2a2mKuJhMYguYlKzk/Nbhjfx+f6k+//uK21X6+XCEnXG74eienDSGAVplnTrrL3C6AHb3xuvN+cVmScBs/IL858NP8ouDgc2tfUgBX0HYDKv04UgBl9LZsvpG/yhzVjZSuhaC6LxBSSJ2rVviX9ufG/dtjNizHuXocZ1gl5NcBeCMQC5nd68uMGA5CJlSAfUBH4w8zu/+k7rWpmr/zBVm/g0CoX2Oc3yElf54rcyfTEHZ3RAsmHvhQNrUQgad+4C6Jpr4RdIcEOS7rPbqlgQ7CnQF0MH9Vh/iS/9HXXtvtabPBJ3X/k/yW1ZrukdACTab9Y7aMTIUXjkUwErN3oRwVQ5XqwYnWampV2blOT/TjY4O8eVDAazWbIuAK6FWvRMTrPSmO+BcVwFQ7mbu19EhPndIgH22VcA57QZDYZjVDfEmM7+0sIJGB+BEuic+WmDEHIgxlT4dBWoYKrI09zUS/JA9fVoTYZcUVggUHYGZV3cMlbcdyMH7WlOp6UZITxccKOsgycd4Zp9O2g27C3LMGpnzhja2cqfbOL/LHwx8zUMK9XG9D+HUnIctdbl9X1q0tkot1SB3HGBOQrbGEe7t+ia+dTCg9truWqol44ZsfD4rCwE5Uh/kqtleWtO5JtwkWBvmBPNe7sWRTfzkYKDVmq6WMAjIt9TlGGWv3Tk6GLbMG0/p3iwWzC5wDjJPwlPujZWr8frergvzDcluHB232yneAyDDPEgHFeBP60PumlYtzm4740EdMz2FfsmOKFxK+Dw6KOdJ+x3ebVk0hW1fPcOJ+aCe9b8vMX/0xQBuM6gqIFAZVsTOUxj3nte0x9w/rhjd92tZatq9hAtylhd7wPncXnMTzvF1zv0EYReYv9kJkjsVUidIj9w3i/fwyHsdDMZb65u4da697Rmf7g06zczuEt0RlHnBecJyLXmA+RmK2mKur9Z/qnhXKGq7E5ggY9/oYPnj+Yy9XhPzZSo5u0PEspZbfJ5bnFUQ5tQUo4deUCDp82TIXqHTl77kHtz+GHfuKWjhi3BNF8JsrYhTZpUWoyYnQ+E+kYURbWUEfiDSsyNDpXf2ldkLAtubTr9P1UZKFxE8W7leqeOLGJFjkI1R+oLefziykd/ur4T+AvEQmz0JR0waAAAAAElFTkSuQmCC"
+              style="width:1em;height:1em;display:block"
+            />
+          </span>
+        </span>
+        <span>
+          Dashed Button
+        </span>
+      </button>
+    </div>
+  </div>,
+  <div
+    class="m-design-space m-design-space-horizontal m-design-space-align-center"
+    style="width:100%"
+  >
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <button
+        class="m-design-btn m-design-btn-text m-design-btn-loading"
+        type="button"
+      >
+        <span
+          class="m-design-btn-loading-icon"
+        >
+          <span
+            class="anticon result-loading-icon"
+            role="img"
+          >
+            <img
+              alt="loading"
+              class="anticon-spin"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAABSpJREFUSEutlltonEUYht93ZnaTaq3GsyJ0N6aeD9BWhRaxeLwSRbF4oVJEPGFNtlHQK413HmhSFUEQFLzwoiJKUREFTxdShaLiAbVJtlgVT8TGpMluZr5X5s9ujLVNW+3e/Oz/z8zzvd9xiAP4nXW3Fjc60RUNi4PBWxkuJaQSGo0pdjS6hMlGxOT2p9jY33FcaEG1VycIqCSHsktIJFJKM8mHUowRyQfEOIPkXCOFckeUQyNG7No5yKl9nbtX4IqHddiuP+L5TYXFGcIUk/kQMzQFRC/EGJvJh3JMhujcdJqxzug9Umgg2RI0LlqO8c1rmfYE/wt4Wr+ObUasEOGoaKYQnUMyQ6SLyaToDNFYmvGGGEuIQYjNJlKpjDgdkMIUUqmEVDkSE+8NMM6H/gPYs17HRZ9WJ3kjkmV1ko9kBoXoFKMhjJc9ppMQO+I0d7PTBUOcKSNmdc1FiGE30p8JFgLSml8xtXnz30rngDkxdnfgMhkClMzok8vuVFYTJ1wpDFcOw297WnzDDfLfLEXnJHD4ZAPKkMlJpPwsRVi5Cas/jwZIZaVzwErvzFUQuwww0qdZKFJJ/uubuzA8MEBbKMEkceUAFo39iNKfLdiPHUhowDAGQ0tlAaz2a2mKuJhMYguYlKzk/Nbhjfx+f6k+//uK21X6+XCEnXG74eienDSGAVplnTrrL3C6AHb3xuvN+cVmScBs/IL858NP8ouDgc2tfUgBX0HYDKv04UgBl9LZsvpG/yhzVjZSuhaC6LxBSSJ2rVviX9ufG/dtjNizHuXocZ1gl5NcBeCMQC5nd68uMGA5CJlSAfUBH4w8zu/+k7rWpmr/zBVm/g0CoX2Oc3yElf54rcyfTEHZ3RAsmHvhQNrUQgad+4C6Jpr4RdIcEOS7rPbqlgQ7CnQF0MH9Vh/iS/9HXXtvtabPBJ3X/k/yW1ZrukdACTab9Y7aMTIUXjkUwErN3oRwVQ5XqwYnWampV2blOT/TjY4O8eVDAazWbIuAK6FWvRMTrPSmO+BcVwFQ7mbu19EhPndIgH22VcA57QZDYZjVDfEmM7+0sIJGB+BEuic+WmDEHIgxlT4dBWoYKrI09zUS/JA9fVoTYZcUVggUHYGZV3cMlbcdyMH7WlOp6UZITxccKOsgycd4Zp9O2g27C3LMGpnzhja2cqfbOL/LHwx8zUMK9XG9D+HUnIctdbl9X1q0tkot1SB3HGBOQrbGEe7t+ia+dTCg9truWqol44ZsfD4rCwE5Uh/kqtleWtO5JtwkWBvmBPNe7sWRTfzkYKDVmq6WMAjIt9TlGGWv3Tk6GLbMG0/p3iwWzC5wDjJPwlPujZWr8frergvzDcluHB232yneAyDDPEgHFeBP60PumlYtzm4740EdMz2FfsmOKFxK+Dw6KOdJ+x3ebVk0hW1fPcOJ+aCe9b8vMX/0xQBuM6gqIFAZVsTOUxj3nte0x9w/rhjd92tZatq9hAtylhd7wPncXnMTzvF1zv0EYReYv9kJkjsVUidIj9w3i/fwyHsdDMZb65u4da697Rmf7g06zczuEt0RlHnBecJyLXmA+RmK2mKur9Z/qnhXKGq7E5ggY9/oYPnj+Yy9XhPzZSo5u0PEspZbfJ5bnFUQ5tQUo4deUCDp82TIXqHTl77kHtz+GHfuKWjhi3BNF8JsrYhTZpUWoyYnQ+E+kYURbWUEfiDSsyNDpXf2ldkLAtubTr9P1UZKFxE8W7leqeOLGJFjkI1R+oLefziykd/ur4T+AvEQmz0JR0waAAAAAElFTkSuQmCC"
+              style="width:1em;height:1em;display:block"
+            />
+          </span>
+        </span>
+        <span>
+          Text Button
+        </span>
+      </button>
+    </div>
+    <div
+      class="m-design-space-item"
+    >
+      <button
+        class="m-design-btn m-design-btn-link m-design-btn-loading"
+        type="button"
+      >
+        <span
+          class="m-design-btn-loading-icon"
+        >
+          <span
+            class="anticon result-loading-icon"
+            role="img"
+          >
+            <img
+              alt="loading"
+              class="anticon-spin"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAABSpJREFUSEutlltonEUYht93ZnaTaq3GsyJ0N6aeD9BWhRaxeLwSRbF4oVJEPGFNtlHQK413HmhSFUEQFLzwoiJKUREFTxdShaLiAbVJtlgVT8TGpMluZr5X5s9ujLVNW+3e/Oz/z8zzvd9xiAP4nXW3Fjc60RUNi4PBWxkuJaQSGo0pdjS6hMlGxOT2p9jY33FcaEG1VycIqCSHsktIJFJKM8mHUowRyQfEOIPkXCOFckeUQyNG7No5yKl9nbtX4IqHddiuP+L5TYXFGcIUk/kQMzQFRC/EGJvJh3JMhujcdJqxzug9Umgg2RI0LlqO8c1rmfYE/wt4Wr+ObUasEOGoaKYQnUMyQ6SLyaToDNFYmvGGGEuIQYjNJlKpjDgdkMIUUqmEVDkSE+8NMM6H/gPYs17HRZ9WJ3kjkmV1ko9kBoXoFKMhjJc9ppMQO+I0d7PTBUOcKSNmdc1FiGE30p8JFgLSml8xtXnz30rngDkxdnfgMhkClMzok8vuVFYTJ1wpDFcOw297WnzDDfLfLEXnJHD4ZAPKkMlJpPwsRVi5Cas/jwZIZaVzwErvzFUQuwww0qdZKFJJ/uubuzA8MEBbKMEkceUAFo39iNKfLdiPHUhowDAGQ0tlAaz2a2mKuJhMYguYlKzk/Nbhjfx+f6k+//uK21X6+XCEnXG74eienDSGAVplnTrrL3C6AHb3xuvN+cVmScBs/IL858NP8ouDgc2tfUgBX0HYDKv04UgBl9LZsvpG/yhzVjZSuhaC6LxBSSJ2rVviX9ufG/dtjNizHuXocZ1gl5NcBeCMQC5nd68uMGA5CJlSAfUBH4w8zu/+k7rWpmr/zBVm/g0CoX2Oc3yElf54rcyfTEHZ3RAsmHvhQNrUQgad+4C6Jpr4RdIcEOS7rPbqlgQ7CnQF0MH9Vh/iS/9HXXtvtabPBJ3X/k/yW1ZrukdACTab9Y7aMTIUXjkUwErN3oRwVQ5XqwYnWampV2blOT/TjY4O8eVDAazWbIuAK6FWvRMTrPSmO+BcVwFQ7mbu19EhPndIgH22VcA57QZDYZjVDfEmM7+0sIJGB+BEuic+WmDEHIgxlT4dBWoYKrI09zUS/JA9fVoTYZcUVggUHYGZV3cMlbcdyMH7WlOp6UZITxccKOsgycd4Zp9O2g27C3LMGpnzhja2cqfbOL/LHwx8zUMK9XG9D+HUnIctdbl9X1q0tkot1SB3HGBOQrbGEe7t+ia+dTCg9truWqol44ZsfD4rCwE5Uh/kqtleWtO5JtwkWBvmBPNe7sWRTfzkYKDVmq6WMAjIt9TlGGWv3Tk6GLbMG0/p3iwWzC5wDjJPwlPujZWr8frergvzDcluHB232yneAyDDPEgHFeBP60PumlYtzm4740EdMz2FfsmOKFxK+Dw6KOdJ+x3ebVk0hW1fPcOJ+aCe9b8vMX/0xQBuM6gqIFAZVsTOUxj3nte0x9w/rhjd92tZatq9hAtylhd7wPncXnMTzvF1zv0EYReYv9kJkjsVUidIj9w3i/fwyHsdDMZb65u4da697Rmf7g06zczuEt0RlHnBecJyLXmA+RmK2mKur9Z/qnhXKGq7E5ggY9/oYPnj+Yy9XhPzZSo5u0PEspZbfJ5bnFUQ5tQUo4deUCDp82TIXqHTl77kHtz+GHfuKWjhi3BNF8JsrYhTZpUWoyYnQ+E+kYURbWUEfiDSsyNDpXf2ldkLAtubTr9P1UZKFxE8W7leqeOLGJFjkI1R+oLefziykd/ur4T+AvEQmz0JR0waAAAAAElFTkSuQmCC"
+              style="width:1em;height:1em;display:block"
+            />
+          </span>
+        </span>
+        <span>
+          Link Button
+        </span>
+      </button>
+    </div>
+  </div>,
+  <div
+    class="m-design-space m-design-space-horizontal m-design-space-align-center"
+    style="width:100%"
+  >
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary"
+        type="button"
+      >
+        <span>
+          Click me!
+        </span>
+      </button>
+    </div>
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary"
+        type="button"
+      >
+        <span
+          aria-label="poweroff"
+          class="anticon anticon-poweroff"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="poweroff"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M705.6 124.9a8 8 0 00-11.6 7.2v64.2c0 5.5 2.9 10.6 7.5 13.6a352.2 352.2 0 0162.2 49.8c32.7 32.8 58.4 70.9 76.3 113.3a355 355 0 0127.9 138.7c0 48.1-9.4 94.8-27.9 138.7a355.92 355.92 0 01-76.3 113.3 353.06 353.06 0 01-113.2 76.4c-43.8 18.6-90.5 28-138.5 28s-94.7-9.4-138.5-28a353.06 353.06 0 01-113.2-76.4A355.92 355.92 0 01184 650.4a355 355 0 01-27.9-138.7c0-48.1 9.4-94.8 27.9-138.7 17.9-42.4 43.6-80.5 76.3-113.3 19-19 39.8-35.6 62.2-49.8 4.7-2.9 7.5-8.1 7.5-13.6V132c0-6-6.3-9.8-11.6-7.2C178.5 195.2 82 339.3 80 506.3 77.2 745.1 272.5 943.5 511.2 944c239 .5 432.8-193.3 432.8-432.4 0-169.2-97-315.7-238.4-386.7zM480 560h64c4.4 0 8-3.6 8-8V88c0-4.4-3.6-8-8-8h-64c-4.4 0-8 3.6-8 8v464c0 4.4 3.6 8 8 8z"
+            />
+          </svg>
+        </span>
+        <span>
+          Click me!
+        </span>
+      </button>
+    </div>
+    <div
+      class="m-design-space-item"
+    >
+      <button
+        class="m-design-btn m-design-btn-primary m-design-btn-icon-only"
+        type="button"
+      >
+        <span
+          aria-label="poweroff"
+          class="anticon anticon-poweroff"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="poweroff"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M705.6 124.9a8 8 0 00-11.6 7.2v64.2c0 5.5 2.9 10.6 7.5 13.6a352.2 352.2 0 0162.2 49.8c32.7 32.8 58.4 70.9 76.3 113.3a355 355 0 0127.9 138.7c0 48.1-9.4 94.8-27.9 138.7a355.92 355.92 0 01-76.3 113.3 353.06 353.06 0 01-113.2 76.4c-43.8 18.6-90.5 28-138.5 28s-94.7-9.4-138.5-28a353.06 353.06 0 01-113.2-76.4A355.92 355.92 0 01184 650.4a355 355 0 01-27.9-138.7c0-48.1 9.4-94.8 27.9-138.7 17.9-42.4 43.6-80.5 76.3-113.3 19-19 39.8-35.6 62.2-49.8 4.7-2.9 7.5-8.1 7.5-13.6V132c0-6-6.3-9.8-11.6-7.2C178.5 195.2 82 339.3 80 506.3 77.2 745.1 272.5 943.5 511.2 944c239 .5 432.8-193.3 432.8-432.4 0-169.2-97-315.7-238.4-386.7zM480 560h64c4.4 0 8-3.6 8-8V88c0-4.4-3.6-8-8-8h-64c-4.4 0-8 3.6-8 8v464c0 4.4 3.6 8 8 8z"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/button/demo/multiple.md correctly 1`] = `
+Array [
+  <button
+    class="m-design-btn m-design-btn-primary"
+    type="button"
+  >
+    <span>
+      primary
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-default"
+    type="button"
+  >
+    <span>
+      secondary
+    </span>
+  </button>,
+  <div
+    class="m-design-btn-group m-design-dropdown-button"
+  >
+    <button
+      class="m-design-btn m-design-btn-default"
+      type="button"
+    >
+      <span>
+        Actions
+      </span>
+    </button>
+    <button
+      class="m-design-btn m-design-btn-default m-design-btn-icon-only m-design-dropdown-trigger"
+      type="button"
+    >
+      <span
+        aria-label="ellipsis"
+        class="anticon anticon-ellipsis"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="ellipsis"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`renders ./components/button/demo/size.md correctly 1`] = `
+Array [
+  <div
+    class="m-design-radio-group m-design-radio-group-outline"
+  >
+    <label
+      class="m-design-radio-button-wrapper"
+    >
+      <span
+        class="m-design-radio-button-single"
+      >
+        <input
+          class="m-design-radio-button-single-input"
+          type="radio"
+          value="x-large"
+        />
+        <span
+          class="m-design-radio-button-single-inner"
+        />
+      </span>
+      <span>
+        x-Large
+      </span>
+    </label>
+    <label
+      class="m-design-radio-button-wrapper m-design-radio-button-wrapper-checked"
+    >
+      <span
+        class="m-design-radio-button-single m-design-radio-button-single-checked"
+      >
+        <input
+          checked=""
+          class="m-design-radio-button-single-input"
+          type="radio"
+          value="large"
+        />
+        <span
+          class="m-design-radio-button-single-inner"
+        />
+      </span>
+      <span>
+        Large
+      </span>
+    </label>
+    <label
+      class="m-design-radio-button-wrapper"
+    >
+      <span
+        class="m-design-radio-button-single"
+      >
+        <input
+          class="m-design-radio-button-single-input"
+          type="radio"
+          value="default"
+        />
+        <span
+          class="m-design-radio-button-single-inner"
+        />
+      </span>
+      <span>
+        Default
+      </span>
+    </label>
+    <label
+      class="m-design-radio-button-wrapper"
+    >
+      <span
+        class="m-design-radio-button-single"
+      >
+        <input
+          class="m-design-radio-button-single-input"
+          type="radio"
+          value="small"
+        />
+        <span
+          class="m-design-radio-button-single-inner"
+        />
+      </span>
+      <span>
+        Small
+      </span>
+    </label>
+  </div>,
+  <br />,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-lg"
+    type="button"
+  >
+    <span>
+      Primary
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-default m-design-btn-lg"
+    type="button"
+  >
+    <span>
+      Default
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-dashed m-design-btn-lg"
+    type="button"
+  >
+    <span>
+      Dashed
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-link m-design-btn-lg"
+    type="button"
+  >
+    <span>
+      Link
+    </span>
+  </button>,
+  <br />,
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-lg m-design-btn-icon-only"
+    type="button"
+  >
+    <span
+      aria-label="download"
+      class="anticon anticon-download"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="download"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
+        />
+      </svg>
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-circle m-design-btn-primary m-design-btn-lg m-design-btn-icon-only"
+    type="button"
+  >
+    <span
+      aria-label="download"
+      class="anticon anticon-download"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="download"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
+        />
+      </svg>
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-round m-design-btn-primary m-design-btn-lg m-design-btn-icon-only"
+    type="button"
+  >
+    <span
+      aria-label="download"
+      class="anticon anticon-download"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="download"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
+        />
+      </svg>
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-round m-design-btn-primary m-design-btn-lg"
+    type="button"
+  >
+    <span
+      aria-label="download"
+      class="anticon anticon-download"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="download"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
+        />
+      </svg>
+    </span>
+    <span>
+      Download
+    </span>
+  </button>,
+  <button
+    class="m-design-btn m-design-btn-primary m-design-btn-lg"
+    type="button"
+  >
+    <span
+      aria-label="download"
+      class="anticon anticon-download"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="download"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M505.7 661a8 8 0 0012.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"
+        />
+      </svg>
+    </span>
+    <span>
+      Download
+    </span>
+  </button>,
+]
+`;

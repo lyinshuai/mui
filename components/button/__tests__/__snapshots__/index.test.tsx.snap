@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button fixbug renders {0} , 0 and {false} 1`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  0
+</button>
+`;
+
+exports[`Button fixbug renders {0} , 0 and {false} 2`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span>
+    0
+  </span>
+</button>
+`;
+
+exports[`Button fixbug renders {0} , 0 and {false} 3`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+/>
+`;
+
+exports[`Button renders Chinese characters correctly 1`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span>
+    按 钮
+  </span>
+</button>
+`;
+
+exports[`Button renders Chinese characters correctly 2`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span
+    aria-label="search"
+    class="anticon anticon-search"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      data-icon="search"
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      viewBox="64 64 896 896"
+      width="1em"
+    >
+      <path
+        d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+      />
+    </svg>
+  </span>
+  <span>
+    按钮
+  </span>
+</button>
+`;
+
+exports[`Button renders Chinese characters correctly 3`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span
+    aria-label="search"
+    class="anticon anticon-search"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      data-icon="search"
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      viewBox="64 64 896 896"
+      width="1em"
+    >
+      <path
+        d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+      />
+    </svg>
+  </span>
+  <span>
+    按钮
+  </span>
+</button>
+`;
+
+exports[`Button renders Chinese characters correctly 4`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span
+    aria-label="search"
+    class="anticon anticon-search"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      data-icon="search"
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      viewBox="64 64 896 896"
+      width="1em"
+    >
+      <path
+        d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+      />
+    </svg>
+  </span>
+  <span>
+    按钮
+  </span>
+</button>
+`;
+
+exports[`Button renders Chinese characters correctly 5`] = `
+<button
+  class="m-design-btn m-design-btn-default m-design-btn-loading"
+  type="button"
+>
+  <span
+    class="m-design-btn-loading-icon"
+  >
+    <span
+      class="anticon result-loading-icon"
+      role="img"
+    >
+      <img
+        alt="loading"
+        class="anticon-spin"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAABSpJREFUSEutlltonEUYht93ZnaTaq3GsyJ0N6aeD9BWhRaxeLwSRbF4oVJEPGFNtlHQK413HmhSFUEQFLzwoiJKUREFTxdShaLiAbVJtlgVT8TGpMluZr5X5s9ujLVNW+3e/Oz/z8zzvd9xiAP4nXW3Fjc60RUNi4PBWxkuJaQSGo0pdjS6hMlGxOT2p9jY33FcaEG1VycIqCSHsktIJFJKM8mHUowRyQfEOIPkXCOFckeUQyNG7No5yKl9nbtX4IqHddiuP+L5TYXFGcIUk/kQMzQFRC/EGJvJh3JMhujcdJqxzug9Umgg2RI0LlqO8c1rmfYE/wt4Wr+ObUasEOGoaKYQnUMyQ6SLyaToDNFYmvGGGEuIQYjNJlKpjDgdkMIUUqmEVDkSE+8NMM6H/gPYs17HRZ9WJ3kjkmV1ko9kBoXoFKMhjJc9ppMQO+I0d7PTBUOcKSNmdc1FiGE30p8JFgLSml8xtXnz30rngDkxdnfgMhkClMzok8vuVFYTJ1wpDFcOw297WnzDDfLfLEXnJHD4ZAPKkMlJpPwsRVi5Cas/jwZIZaVzwErvzFUQuwww0qdZKFJJ/uubuzA8MEBbKMEkceUAFo39iNKfLdiPHUhowDAGQ0tlAaz2a2mKuJhMYguYlKzk/Nbhjfx+f6k+//uK21X6+XCEnXG74eienDSGAVplnTrrL3C6AHb3xuvN+cVmScBs/IL858NP8ouDgc2tfUgBX0HYDKv04UgBl9LZsvpG/yhzVjZSuhaC6LxBSSJ2rVviX9ufG/dtjNizHuXocZ1gl5NcBeCMQC5nd68uMGA5CJlSAfUBH4w8zu/+k7rWpmr/zBVm/g0CoX2Oc3yElf54rcyfTEHZ3RAsmHvhQNrUQgad+4C6Jpr4RdIcEOS7rPbqlgQ7CnQF0MH9Vh/iS/9HXXtvtabPBJ3X/k/yW1ZrukdACTab9Y7aMTIUXjkUwErN3oRwVQ5XqwYnWampV2blOT/TjY4O8eVDAazWbIuAK6FWvRMTrPSmO+BcVwFQ7mbu19EhPndIgH22VcA57QZDYZjVDfEmM7+0sIJGB+BEuic+WmDEHIgxlT4dBWoYKrI09zUS/JA9fVoTYZcUVggUHYGZV3cMlbcdyMH7WlOp6UZITxccKOsgycd4Zp9O2g27C3LMGpnzhja2cqfbOL/LHwx8zUMK9XG9D+HUnIctdbl9X1q0tkot1SB3HGBOQrbGEe7t+ia+dTCg9truWqol44ZsfD4rCwE5Uh/kqtleWtO5JtwkWBvmBPNe7sWRTfzkYKDVmq6WMAjIt9TlGGWv3Tk6GLbMG0/p3iwWzC5wDjJPwlPujZWr8frergvzDcluHB232yneAyDDPEgHFeBP60PumlYtzm4740EdMz2FfsmOKFxK+Dw6KOdJ+x3ebVk0hW1fPcOJ+aCe9b8vMX/0xQBuM6gqIFAZVsTOUxj3nte0x9w/rhjd92tZatq9hAtylhd7wPncXnMTzvF1zv0EYReYv9kJkjsVUidIj9w3i/fwyHsdDMZb65u4da697Rmf7g06zczuEt0RlHnBecJyLXmA+RmK2mKur9Z/qnhXKGq7E5ggY9/oYPnj+Yy9XhPzZSo5u0PEspZbfJ5bnFUQ5tQUo4deUCDp82TIXqHTl77kHtz+GHfuKWjhi3BNF8JsrYhTZpUWoyYnQ+E+kYURbWUEfiDSsyNDpXf2ldkLAtubTr9P1UZKFxE8W7leqeOLGJFjkI1R+oLefziykd/ur4T+AvEQmz0JR0waAAAAAElFTkSuQmCC"
+        style="width: 1em; height: 1em; display: block;"
+      />
+    </span>
+  </span>
+  <span>
+    按钮
+  </span>
+</button>
+`;
+
+exports[`Button renders Chinese characters correctly 6`] = `
+<button
+  class="m-design-btn m-design-btn-default m-design-btn-loading"
+  type="button"
+>
+  <span
+    class="m-design-btn-loading-icon"
+    style="width: 0px; opacity: 0; transform: scale(0);"
+  >
+    <span
+      class="anticon m-design-btn-loading-icon-motion-appear m-design-btn-loading-icon-motion-appear-start m-design-btn-loading-icon-motion result-loading-icon"
+      role="img"
+    >
+      <img
+        alt="loading"
+        class="anticon-spin"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAABSpJREFUSEutlltonEUYht93ZnaTaq3GsyJ0N6aeD9BWhRaxeLwSRbF4oVJEPGFNtlHQK413HmhSFUEQFLzwoiJKUREFTxdShaLiAbVJtlgVT8TGpMluZr5X5s9ujLVNW+3e/Oz/z8zzvd9xiAP4nXW3Fjc60RUNi4PBWxkuJaQSGo0pdjS6hMlGxOT2p9jY33FcaEG1VycIqCSHsktIJFJKM8mHUowRyQfEOIPkXCOFckeUQyNG7No5yKl9nbtX4IqHddiuP+L5TYXFGcIUk/kQMzQFRC/EGJvJh3JMhujcdJqxzug9Umgg2RI0LlqO8c1rmfYE/wt4Wr+ObUasEOGoaKYQnUMyQ6SLyaToDNFYmvGGGEuIQYjNJlKpjDgdkMIUUqmEVDkSE+8NMM6H/gPYs17HRZ9WJ3kjkmV1ko9kBoXoFKMhjJc9ppMQO+I0d7PTBUOcKSNmdc1FiGE30p8JFgLSml8xtXnz30rngDkxdnfgMhkClMzok8vuVFYTJ1wpDFcOw297WnzDDfLfLEXnJHD4ZAPKkMlJpPwsRVi5Cas/jwZIZaVzwErvzFUQuwww0qdZKFJJ/uubuzA8MEBbKMEkceUAFo39iNKfLdiPHUhowDAGQ0tlAaz2a2mKuJhMYguYlKzk/Nbhjfx+f6k+//uK21X6+XCEnXG74eienDSGAVplnTrrL3C6AHb3xuvN+cVmScBs/IL858NP8ouDgc2tfUgBX0HYDKv04UgBl9LZsvpG/yhzVjZSuhaC6LxBSSJ2rVviX9ufG/dtjNizHuXocZ1gl5NcBeCMQC5nd68uMGA5CJlSAfUBH4w8zu/+k7rWpmr/zBVm/g0CoX2Oc3yElf54rcyfTEHZ3RAsmHvhQNrUQgad+4C6Jpr4RdIcEOS7rPbqlgQ7CnQF0MH9Vh/iS/9HXXtvtabPBJ3X/k/yW1ZrukdACTab9Y7aMTIUXjkUwErN3oRwVQ5XqwYnWampV2blOT/TjY4O8eVDAazWbIuAK6FWvRMTrPSmO+BcVwFQ7mbu19EhPndIgH22VcA57QZDYZjVDfEmM7+0sIJGB+BEuic+WmDEHIgxlT4dBWoYKrI09zUS/JA9fVoTYZcUVggUHYGZV3cMlbcdyMH7WlOp6UZITxccKOsgycd4Zp9O2g27C3LMGpnzhja2cqfbOL/LHwx8zUMK9XG9D+HUnIctdbl9X1q0tkot1SB3HGBOQrbGEe7t+ia+dTCg9truWqol44ZsfD4rCwE5Uh/kqtleWtO5JtwkWBvmBPNe7sWRTfzkYKDVmq6WMAjIt9TlGGWv3Tk6GLbMG0/p3iwWzC5wDjJPwlPujZWr8frergvzDcluHB232yneAyDDPEgHFeBP60PumlYtzm4740EdMz2FfsmOKFxK+Dw6KOdJ+x3ebVk0hW1fPcOJ+aCe9b8vMX/0xQBuM6gqIFAZVsTOUxj3nte0x9w/rhjd92tZatq9hAtylhd7wPncXnMTzvF1zv0EYReYv9kJkjsVUidIj9w3i/fwyHsdDMZb65u4da697Rmf7g06zczuEt0RlHnBecJyLXmA+RmK2mKur9Z/qnhXKGq7E5ggY9/oYPnj+Yy9XhPzZSo5u0PEspZbfJ5bnFUQ5tQUo4deUCDp82TIXqHTl77kHtz+GHfuKWjhi3BNF8JsrYhTZpUWoyYnQ+E+kYURbWUEfiDSsyNDpXf2ldkLAtubTr9P1UZKFxE8W7leqeOLGJFjkI1R+oLefziykd/ur4T+AvEQmz0JR0waAAAAAElFTkSuQmCC"
+        style="width: 1em; height: 1em; display: block;"
+      />
+    </span>
+  </span>
+  <span>
+    按 钮
+  </span>
+</button>
+`;
+
+exports[`Button renders Chinese characters correctly 7`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span>
+    按 钮
+  </span>
+</button>
+`;
+
+exports[`Button renders correctly 1`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span>
+    Follow
+  </span>
+</button>
+`;
+
+exports[`Button rtl render component should be rendered correctly in RTL direction 1`] = `
+<button
+  class="m-design-btn m-design-btn-default m-design-btn-rtl"
+  type="button"
+/>
+`;
+
+exports[`Button rtl render component should be rendered correctly in RTL direction 2`] = `
+<button
+  class="m-design-btn m-design-btn-default m-design-btn-lg m-design-btn-rtl"
+  type="button"
+/>
+`;
+
+exports[`Button rtl render component should be rendered correctly in RTL direction 3`] = `
+<button
+  class="m-design-btn m-design-btn-default m-design-btn-sm m-design-btn-rtl"
+  type="button"
+/>
+`;
+
+exports[`Button rtl render component should be rendered correctly in RTL direction 4`] = `
+<div
+  class="m-design-btn-group m-design-btn-group-rtl"
+/>
+`;
+
+exports[`Button rtl render component should be rendered correctly in RTL direction 5`] = `
+<div
+  class="m-design-btn-group m-design-btn-group-lg m-design-btn-group-rtl"
+/>
+`;
+
+exports[`Button rtl render component should be rendered correctly in RTL direction 6`] = `
+<div
+  class="m-design-btn-group m-design-btn-group-sm m-design-btn-group-rtl"
+/>
+`;
+
+exports[`Button rtl render component should be rendered correctly in RTL direction 7`] = `
+<div
+  class="m-design-btn-group m-design-btn-group-rtl"
+/>
+`;
+
+exports[`Button should handle fragment as children 1`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span>
+    text
+  </span>
+</button>
+`;
+
+exports[`Button should merge text if children using variable 1`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span>
+    This is a test 1
+  </span>
+</button>
+`;
+
+exports[`Button should not render as link button when href is undefined 1`] = `
+<button
+  class="m-design-btn m-design-btn-primary"
+  type="button"
+>
+  <span>
+    button
+  </span>
+</button>
+`;
+
+exports[`Button should render empty button without errors 1`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+/>
+`;
+
+exports[`Button should support link button 1`] = `
+<a
+  class="m-design-btn m-design-btn-default"
+  href="https://ant.design"
+  target="_blank"
+>
+  <span>
+    link button
+  </span>
+</a>
+`;

@@ -1,0 +1,97 @@
+@import '../../style/themes/index';
+@import '../../style/mixins/index';
+
+@radio-prefix-cls: ~'@{ant-prefix}-radio';
+@radio-group-prefix-cls: ~'@{radio-prefix-cls}-group';
+@radio-prefix-cls-button-wrapper: ~'@{radio-prefix-cls}-button-wrapper';
+
+.@{radio-group-prefix-cls} {
+  &-rtl {
+    direction: rtl;
+  }
+}
+
+.@{radio-group-prefix-cls}-rtl > :first-child {
+  .@{radio-prefix-cls-button-wrapper} {
+    border-radius: 0 @radio-button-radius-base @radio-button-radius-base 0;
+  }
+}
+.@{radio-group-prefix-cls}-rtl > :last-child {
+  .@{radio-prefix-cls-button-wrapper} {
+    border-radius: @radio-button-radius-base 0 0 @radio-button-radius-base;
+  }
+}
+
+.@{radio-group-prefix-cls}-rtl > :not(:first-child) > .@{radio-prefix-cls}-button-wrapper::before {
+  display: none;
+}
+.@{radio-group-prefix-cls}-rtl > :not(:first-child) > .@{radio-prefix-cls}-button-wrapper::after {
+  position: absolute;
+  top: 50%;
+  right: -1px;
+  display: block;
+  box-sizing: content-box;
+  width: 1px;
+  height: 40%;
+  padding: @border-width-base 0;
+  background-color: @radio-border-color;
+  transform: translateY(-50%);
+  transition: background-color 0.3s;
+  content: '';
+}
+
+.@{radio-group-prefix-cls}-rtl > * .@{radio-prefix-cls}-button-wrapper::after {
+  background-color: @radio-border-color !important;
+}
+
+// 一般状态
+.@{radio-prefix-cls}-wrapper {
+  &-rtl {
+    margin-right: 0;
+    margin-left: @radio-wrapper-margin-right;
+    direction: rtl;
+  }
+}
+
+.@{radio-prefix-cls-button-wrapper}-rtl {
+  &:first-child {
+    border-radius: 0 @radio-button-radius-base @radio-button-radius-base 0;
+  }
+
+  &:last-child {
+    border-radius: @radio-button-radius-base 0 0 @radio-button-radius-base;
+  }
+
+  &:not(:first-child)::before {
+    display: none;
+  }
+
+  &:not(:first-child)::after {
+    position: absolute;
+    top: 50%;
+    right: -1px;
+    display: block;
+    box-sizing: content-box;
+    width: 1px;
+    height: 40%;
+    padding: @border-width-base 0;
+    background-color: @radio-border-color;
+    transform: translateY(-50%);
+    transition: background-color 0.3s;
+    content: '';
+  }
+
+  &:not(.@{radio-prefix-cls-button-wrapper}-disabled):not(.@{radio-prefix-cls-button-wrapper}-checked) {
+    &:hover::after,
+    &:hover + &::after {
+      background-color: transparent;
+    }
+  }
+
+  &.@{radio-prefix-cls-button-wrapper}-checked {
+    &.@{radio-prefix-cls}-button-wrapper::after,
+    &.@{radio-prefix-cls}-button-wrapper + .@{radio-prefix-cls}-button-wrapper::after {
+      background-color: transparent;
+    }
+  }
+}

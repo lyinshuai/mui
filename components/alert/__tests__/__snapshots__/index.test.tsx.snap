@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert action of Alert custom action 1`] = `
+<div
+  class="m-design-alert m-design-alert-success"
+  data-show="true"
+  role="alert"
+>
+  <span
+    class="anticon result-success-icon"
+    role="img"
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      viewBox="0 0 40 40"
+      width="1em"
+    >
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        id="V1.1"
+        stroke="none"
+        stroke-width="1"
+      >
+        <g
+          transform="translate(1111.500000, 752.500000) scale(1, -1) translate(-1111.500000, -752.500000) translate(-498.000000, -289.000000)"
+        >
+          <g
+            transform="translate(518.000000, 1774.000000) scale(1, -1) translate(-518.000000, -1774.000000) translate(498.000000, 1754.000000)"
+          >
+            <path
+              d="M20,0 C31.0457333,0 40,8.95432 40,20 C40,31.0457333 31.0457333,40 20,40 C8.95432,40 0,31.0457333 0,20 C0,8.95432 8.95432,0 20,0 Z"
+              fill="currentColor"
+            />
+            <path
+              d="M26.5366316,13.8097584 L27.4730819,14.5955335 C27.9904786,15.0292464 28.0579436,15.8003155 27.6239738,16.3175006 C27.6239023,16.3175858 27.6238308,16.317671 27.6234971,16.3175362 L19.4477865,26.055586 C19.013568,26.5722688 18.2426353,26.6396548 17.7253105,26.2060465 L15.85241,24.6344963 L24.8141502,13.9602142 C25.2484326,13.4434605 26.0193276,13.3761233 26.5366316,13.8097584 Z"
+              fill="#FFFFFF"
+            />
+            <path
+              d="M12.7149336,20.270914 L13.5351537,19.3599672 C13.9797825,18.866157 14.7374338,18.8179501 15.2410672,19.2514208 L20.9910334,24.2003922 L19.42662,26.082779 C18.9950922,26.6020123 18.224357,26.6731176 17.7051256,26.2415948 C17.698719,26.2362687 17.692368,26.2308809 17.6860743,26.2254294 L12.8229994,22.0128767 C12.312697,21.5708363 12.2573594,20.7988049 12.699403,20.2884987 C12.7045248,20.282586 12.7097026,20.2767236 12.7149336,20.270914 Z"
+              fill="#FFFFFF"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </span>
+  <div
+    class="m-design-alert-content"
+  >
+    <div
+      class="m-design-alert-message"
+    >
+      Success Tips
+    </div>
+  </div>
+  <div
+    class="m-design-alert-action"
+  >
+    <button
+      class="m-design-btn m-design-btn-text m-design-btn-sm"
+      type="button"
+    >
+      <span>
+        UNDO
+      </span>
+    </button>
+  </div>
+  <button
+    class="m-design-alert-close-icon"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      aria-label="close"
+      class="anticon anticon-close"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="close"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+        />
+      </svg>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Alert could accept none react element icon 1`] = `
+<div
+  class="m-design-alert m-design-alert-success"
+  data-show="true"
+  role="alert"
+>
+  <span
+    class="m-design-alert-icon"
+  >
+    icon
+  </span>
+  <div
+    class="m-design-alert-content"
+  >
+    <div
+      class="m-design-alert-message"
+    >
+      Success Tips
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Alert rtl render component should be rendered correctly in RTL direction 1`] = `
+<div
+  class="m-design-alert m-design-alert-info m-design-alert-no-icon m-design-alert-rtl"
+  data-show="true"
+  role="alert"
+>
+  <div
+    class="m-design-alert-content"
+  />
+</div>
+`;
+
+exports[`Alert support closeIcon 1`] = `
+<div
+  class="m-design-alert m-design-alert-warning m-design-alert-no-icon"
+  data-show="true"
+  role="alert"
+>
+  <div
+    class="m-design-alert-content"
+  >
+    <div
+      class="m-design-alert-message"
+    >
+      Warning Text Warning Text Warning TextW arning Text Warning Text Warning TextWarning Text
+    </div>
+  </div>
+  <button
+    class="m-design-alert-close-icon"
+    tabindex="0"
+    type="button"
+  >
+    <span>
+      close
+    </span>
+  </button>
+</div>
+`;

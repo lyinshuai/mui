@@ -1,0 +1,135 @@
+@import '../../style/themes/index';
+@import '../../style/mixins/index';
+
+@tab-prefix-cls: ~'@{ant-prefix}-tabs';
+
+@tab-content-holder-box-shadow-color: rgba(0, 0, 0, 0.08);
+
+.@{tab-prefix-cls}-card-large {
+  > .@{tab-prefix-cls}-nav,
+  > div > .@{tab-prefix-cls}-nav {
+    .@{tab-prefix-cls}-tab {
+      margin: 0;
+      padding: @tabs-card-large-horizontal-padding;
+      font-size: @tabs-title-font-size-card-large;
+      line-height: @tabs-card-large-line-height;
+      background: @component-background;
+      transition: all @animation-duration-slow @ease-in-out;
+
+      &-active {
+        box-shadow: none !important;
+      }
+    }
+
+    .@{tab-prefix-cls}-ink-bar {
+      visibility: hidden;
+    }
+  }
+
+  .@{tab-prefix-cls}-tab-active .@{tab-prefix-cls}-tab-btn {
+    color: @tabs-card-large-active-color;
+    font-weight: @tabs-card-large-font-weight;
+  }
+
+  .@{tab-prefix-cls}-tab:hover:not(.@{tab-prefix-cls}-tab-disabled):not(.@{tab-prefix-cls}-tab-active) {
+    color: @tabs-active-color;
+  }
+
+  > .@{tab-prefix-cls}-content-holder,
+  > div > .@{tab-prefix-cls}-content-holder {
+    background: @component-background;
+  }
+
+  // ========================== Top & Bottom ==========================
+
+  &.@{tab-prefix-cls}-top,
+  &.@{tab-prefix-cls}-bottom {
+    > .@{tab-prefix-cls}-nav,
+    > div > .@{tab-prefix-cls}-nav {
+      &::before {
+        border-bottom: @border-width-base @border-style-base transparent;
+      }
+      .@{tab-prefix-cls}-tab + .@{tab-prefix-cls}-tab {
+        margin-left: @tabs-card-large-gutter;
+      }
+    }
+  }
+
+  &.@{tab-prefix-cls}-left,
+  &.@{tab-prefix-cls}-right {
+    > .@{tab-prefix-cls}-nav,
+    > div > .@{tab-prefix-cls}-nav {
+      .@{tab-prefix-cls}-tab + .@{tab-prefix-cls}-tab {
+        margin-top: @tabs-card-large-gutter;
+      }
+    }
+  }
+
+  // top
+  &.@{tab-prefix-cls}-top {
+    > .@{tab-prefix-cls}-nav,
+    > div > .@{tab-prefix-cls}-nav {
+      .@{tab-prefix-cls}-tab {
+        border-radius: @border-radius-2 @border-radius-2 0 0;
+        box-shadow: 0 -14px 15px -16px @tab-content-holder-box-shadow-color inset;
+      }
+    }
+
+    > .@{tab-prefix-cls}-content-holder,
+    > div > .@{tab-prefix-cls}-content-holder {
+      border-radius: 0 @border-radius-2 @border-radius-2 @border-radius-2;
+      box-shadow: 0 -6px 16px -8px @tab-content-holder-box-shadow-color;
+    }
+  }
+
+  // bottom
+  &.@{tab-prefix-cls}-bottom {
+    > .@{tab-prefix-cls}-nav,
+    > div > .@{tab-prefix-cls}-nav {
+      .@{tab-prefix-cls}-tab {
+        border-radius: 0 0 @border-radius-2 @border-radius-2;
+        box-shadow: 0 14px 15px -16px @tab-content-holder-box-shadow-color inset;
+      }
+    }
+
+    > .@{tab-prefix-cls}-content-holder,
+    > div > .@{tab-prefix-cls}-content-holder {
+      border-radius: @border-radius-2 @border-radius-2 @border-radius-2 0;
+      box-shadow: 0 6px 16px -8px @tab-content-holder-box-shadow-color;
+    }
+  }
+
+  // left
+  &.@{tab-prefix-cls}-left {
+    > .@{tab-prefix-cls}-nav,
+    > div > .@{tab-prefix-cls}-nav {
+      .@{tab-prefix-cls}-tab {
+        border-radius: @border-radius-2 0 0 @border-radius-2;
+        box-shadow: -14px 0 15px -16px @tab-content-holder-box-shadow-color inset;
+      }
+    }
+
+    > .@{tab-prefix-cls}-content-holder,
+    > div > .@{tab-prefix-cls}-content-holder {
+      border-radius: 0 @border-radius-2 @border-radius-2 @border-radius-2;
+      box-shadow: -6px 0 16px -8px @tab-content-holder-box-shadow-color;
+    }
+  }
+
+  //  right
+  &.@{tab-prefix-cls}-right {
+    > .@{tab-prefix-cls}-nav,
+    > div > .@{tab-prefix-cls}-nav {
+      .@{tab-prefix-cls}-tab {
+        border-radius: 0 @border-radius-2 @border-radius-2 0;
+        box-shadow: 14px 0 15px -16px @tab-content-holder-box-shadow-color inset;
+      }
+    }
+
+    > .@{tab-prefix-cls}-content-holder,
+    > div > .@{tab-prefix-cls}-content-holder {
+      border-radius: @border-radius-2 0 @border-radius-2 @border-radius-2;
+      box-shadow: 6px 0 16px -8px @tab-content-holder-box-shadow-color;
+    }
+  }
+}

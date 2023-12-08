@@ -1,0 +1,62 @@
+@import '../../style/themes/index';
+@import '../../style/mixins/index';
+
+@tab-prefix-cls: ~'@{ant-prefix}-tabs';
+
+.@{tab-prefix-cls} {
+  &-small {
+    > .@{tab-prefix-cls}-nav {
+      .@{tab-prefix-cls}-tab {
+        margin: @tabs-horizontal-margin-sm;
+        font-size: @tabs-title-font-size-sm;
+      }
+    }
+  }
+
+  &-large {
+    > .@{tab-prefix-cls}-nav {
+      .@{tab-prefix-cls}-tab {
+        margin: @tabs-horizontal-margin-lg;
+        font-size: @tabs-title-font-size-lg;
+      }
+    }
+  }
+
+  &-card,
+  &-fill,
+  &-text {
+    &.@{tab-prefix-cls}-small {
+      > .@{tab-prefix-cls}-nav {
+        .@{tab-prefix-cls}-tab {
+          padding: @tabs-card-horizontal-padding-sm;
+        }
+      }
+    }
+
+    &.@{tab-prefix-cls}-large {
+      > .@{tab-prefix-cls}-nav {
+        .@{tab-prefix-cls}-tab {
+          padding: @tabs-card-horizontal-padding-lg;
+        }
+      }
+    }
+  }
+
+  &-card-large {
+    &.@{tab-prefix-cls}-small {
+      > .@{tab-prefix-cls}-nav {
+        .@{tab-prefix-cls}-tab {
+          padding: @tabs-card-large-horizontal-padding-sm;
+        }
+      }
+    }
+
+    &.@{tab-prefix-cls}-large {
+      > .@{tab-prefix-cls}-nav {
+        .@{tab-prefix-cls}-tab {
+          padding: @tabs-card-large-horizontal-padding-lg;
+        }
+      }
+    }
+  }
+}

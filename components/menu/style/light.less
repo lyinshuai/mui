@@ -1,0 +1,35 @@
+// light theme
+.@{menu-prefix-cls} {
+  &-light {
+    color: @menu-item-color;
+  }
+
+  &-light &-sub {
+    color: @menu-item-color;
+  }
+
+  &-light:not(.@{menu-prefix-cls}-horizontal) {
+    .@{menu-prefix-cls}-item:hover,
+    .@{menu-prefix-cls}-submenu-title:hover {
+      color: @menu-item-hover-color;
+      background: @menu-item-hover-bg;
+    }
+
+    .@{menu-prefix-cls}-item:active,
+    .@{menu-prefix-cls}-submenu-title:active {
+      background: @menu-item-active-bg;
+    }
+
+    .@{menu-prefix-cls}-item.@{menu-prefix-cls}-item-selected {
+      color: @menu-item-active-color;
+      background: @menu-item-active-bg;
+    }
+
+    .@{menu-prefix-cls}-submenu-selected {
+      > .@{menu-prefix-cls}-submenu-title {
+        color: @menu-item-submenu-title-active-color;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,26 @@
+@import '../../style/common.less';
+
+.section {
+  &-wrapper {
+    box-sizing: content-box;
+    .home-main-content();
+    padding: 80px 20px 80px;
+  }
+
+  &-content {
+    margin-top: 68px;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .section {
+    &-wrapper {
+      box-sizing: content-box;
+      padding: 40px 20px 40px;
+    }
+
+    &-content {
+      margin-top: 28px;
+    }
+  }
+}

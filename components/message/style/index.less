@@ -1,0 +1,125 @@
+@import '../../style/themes/index';
+@import '../../style/mixins/index';
+
+@message-prefix-cls: ~'@{ant-prefix}-message';
+
+.@{message-prefix-cls} {
+  .reset-component();
+
+  position: fixed;
+  top: 16%;
+  left: 0;
+  z-index: @zindex-message;
+  width: 100%;
+  line-height: @message-line-height;
+  pointer-events: none;
+
+  &-notice {
+    padding: 8px;
+    text-align: center;
+  }
+
+  &-notice-content {
+    display: inline-block;
+    max-width: 400px;
+    padding: @message-notice-content-padding;
+    background: @message-notice-content-bg;
+    border: 1px solid transparent;
+    border-radius: @message-notice-content-border-radius;
+    box-shadow: @message-notice-content-box-shadow;
+    pointer-events: all;
+  }
+
+  &-custom-content {
+    display: flex;
+    text-align: left;
+  }
+
+  &-text {
+    /* stylelint-disable-next-line value-no-vendor-prefix */
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  &-type {
+    margin-right: 4px;
+    line-height: 0;
+  }
+
+  &-type .@{iconfont-css-prefix} {
+    padding: 4px;
+    font-size: @font-size-lg;
+  }
+
+  &-success &-notice-content {
+    border: 1px solid @green-base;
+  }
+  &-success &-type .@{iconfont-css-prefix} {
+    color: @success-color;
+  }
+
+  &-error &-notice-content {
+    border: 1px solid @red-base;
+  }
+  &-error &-type .@{iconfont-css-prefix} {
+    color: @error-color;
+  }
+
+  &-warning &-notice-content {
+    border: 1px solid #ff7d00;
+  }
+  &-warning &-type .@{iconfont-css-prefix} {
+    color: @warning-color;
+  }
+
+  &-info &-notice-content {
+    border: 1px solid @blue-base;
+  }
+  &-info &-type .@{iconfont-css-prefix},
+  &-loading &-type .@{iconfont-css-prefix} {
+    color: @info-color;
+  }
+
+  &-close {
+    margin-left: 4px;
+    line-height: 0;
+  }
+
+  &-close-default {
+    display: inline-block;
+    padding: 8px;
+    color: #4e5969;
+    font-size: 8px;
+    cursor: pointer;
+  }
+
+  &-close-custom {
+    display: inline-block;
+    color: #4e5969;
+    line-height: 0;
+    cursor: pointer;
+  }
+
+  &-notice.@{ant-prefix}-move-up-leave.@{ant-prefix}-move-up-leave-active {
+    animation-name: MessageMoveOut;
+    animation-duration: 0.3s;
+  }
+}
+
+@keyframes MessageMoveOut {
+  0% {
+    max-height: 150px;
+    padding: 8px;
+    opacity: 1;
+  }
+
+  100% {
+    max-height: 0;
+    padding: 0;
+    opacity: 0;
+  }
+}
+
+@import './rtl';

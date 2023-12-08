@@ -1,0 +1,73 @@
+.scroll-bar-custom() {
+  // internal var
+  
+  @_scrollbar-track-color: @scrollbar-track-color;
+  @_scrollbar-thumb-color: transparent;
+  @_scrollbar-thumb-hover-color: transparent;
+  @_scrollbar-thumb-shadow-width: @scrollbar-width;
+  @_scrollbar-thumb-shadow-height: @scrollbar-height;
+  @_scrollbar-thumb-margin: @scrollbar-thumb-margin;
+  @_scrollbar-thumb-shadow-color: @scrollbar-thumb-color;
+  @_scrollbar-thumb-shadow-hover-color: @scrollbar-thumb-hover-color;
+
+  @_scrollbar-width: (@_scrollbar-thumb-margin * 2) + @_scrollbar-thumb-shadow-width;
+  @_scrollbar-height: (@_scrollbar-thumb-margin * 2) + @_scrollbar-thumb-shadow-height;
+
+  &::-webkit-resizer {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik03LjIxNSAwTDAgNy4yNzMuNzIxIDggNy45MzYuNzI3IDcuMjE1IDB6bS0uMzQ2IDRMMy45ODMgNi45MWwuNzIxLjcyNkw3LjU5IDQuNzI3IDYuODcgNHoiIGZpbGw9IiM4NjkwOUMiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 8px;
+  }
+
+  &::-webkit-scrollbar {
+    width: @_scrollbar-width;
+    height: @_scrollbar-height;
+  }
+
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  &::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-track:vertical {
+    border: @_scrollbar-thumb-margin solid transparent;
+    border-radius: 15px;
+    box-shadow: @_scrollbar-thumb-shadow-width 0 0 @_scrollbar-track-color inset;
+  }
+
+  &::-webkit-scrollbar-thumb:vertical {
+    background-color: @_scrollbar-thumb-color;
+    border: @_scrollbar-thumb-margin solid transparent;
+    border-radius: 15px;
+    box-shadow: @_scrollbar-thumb-shadow-width 0 @_scrollbar-thumb-shadow-color inset;
+    cursor: pointer;
+  }
+
+  &:hover::-webkit-scrollbar-thumb:vertical {
+    background-color: @_scrollbar-thumb-hover-color;
+    box-shadow: @_scrollbar-thumb-shadow-width 0 @_scrollbar-thumb-shadow-hover-color inset;
+  }
+
+  &::-webkit-scrollbar-track:horizontal {
+    border: @_scrollbar-thumb-margin solid transparent;
+    border-radius: 15px;
+    box-shadow: 0 @_scrollbar-thumb-shadow-height @_scrollbar-track-color inset;
+  }
+
+  &::-webkit-scrollbar-thumb:horizontal {
+    background-color: @_scrollbar-thumb-color;
+    border: @_scrollbar-thumb-margin solid transparent;
+    border-radius: 15px;
+    box-shadow: 0 @_scrollbar-thumb-shadow-height @_scrollbar-thumb-shadow-color inset;
+    cursor: pointer;
+  }
+
+  &:hover::-webkit-scrollbar-thumb:horizontal {
+    background-color: @_scrollbar-thumb-hover-color;
+    box-shadow: 0 @_scrollbar-thumb-shadow-height @_scrollbar-thumb-shadow-hover-color inset;
+  }
+}

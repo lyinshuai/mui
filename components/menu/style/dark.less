@@ -1,0 +1,150 @@
+.accessibility-focus-dark() {
+  box-shadow: 0 0 0 2px @primary-7;
+}
+
+.@{menu-prefix-cls} {
+  &&-root:focus-visible {
+    .accessibility-focus-dark();
+  }
+
+  &-dark &-item,
+  &-dark &-submenu-title {
+    &:focus-visible {
+      .accessibility-focus-dark();
+    }
+  }
+
+  // dark theme
+  &-dark {
+    color: @menu-dark-item-color;
+    background: @menu-dark-bg;
+
+    .@{menu-prefix-cls}-item:hover,
+    .@{menu-prefix-cls}-submenu-title:hover {
+      color: @menu-dark-item-hover-color;
+    }
+
+    .@{menu-prefix-cls}-item.@{menu-prefix-cls}-item-selected {
+      color: @menu-dark-item-active-color;
+    }
+
+    .@{menu-prefix-cls}-submenu-selected {
+      > .@{menu-prefix-cls}-submenu-title {
+        color: @menu-dark-item-active-color;
+      }
+    }
+
+    &:not(.@{menu-prefix-cls}-horizontal) {
+      .@{menu-prefix-cls}-item:hover,
+      .@{menu-prefix-cls}-submenu-title:hover {
+        background: @menu-dark-item-hover-bg;
+      }
+
+      .@{menu-prefix-cls}-item:active,
+      .@{menu-prefix-cls}-submenu-title:active {
+        background: @menu-dark-item-active-bg;
+      }
+
+      .@{menu-prefix-cls}-item.@{menu-prefix-cls}-item-selected {
+        color: @menu-dark-item-active-color;
+        background: @menu-dark-item-active-bg;
+      }
+
+      .@{menu-prefix-cls}-submenu-selected {
+        > .@{menu-prefix-cls}-submenu-title {
+          color: @menu-dark-item-submenu-title-active-color;
+        }
+      }
+    }
+  }
+
+  &-dark&-horizontal > &-item:not(&-item-selected):not(&-item-disabled):hover,
+  &-dark&-horizontal > &-submenu:not(&-item-selected):not(&-item-disabled):hover {
+    &::before {
+      background: @menu-dark-item-hover-bg;
+    }
+  }
+
+  &-dark&-inline {
+    color: @menu-dark-inline-item-color;
+  }
+
+  &-dark &-sub {
+    color: @menu-dark-item-color;
+    background: @menu-dark-bg;
+  }
+
+  &-dark &-sub&-inline {
+    color: @menu-dark-inline-item-color;
+    background: @menu-dark-inline-submenu-bg;
+  }
+
+  &-dark &-submenu {
+    background: @menu-dark-bg;
+
+    .@{menu-prefix-cls}-submenu-selected {
+      color: @menu-dark-item-active-color;
+    }
+  }
+
+  &-dark &-item {
+    a,
+    a:hover {
+      color: inherit;
+    }
+  }
+
+  &-dark&-horizontal {
+    border-bottom: 0;
+    box-shadow: 0 1px 0 0 @menu-dark-border-color;
+    .@{menu-prefix-cls}-tiem,
+    .@{menu-prefix-cls}-item-group-title,
+    .@{menu-prefix-cls}-item > a,
+    .@{menu-prefix-cls}-item > span > a {
+      color: #86909d;
+    }
+  }
+
+  &-dark&-dark &-item&overflow-item-suffix {
+    color: #fff;
+  }
+
+  &-dark&-has-collapse-button &-overflow-item-suffix {
+    .@{menu-prefix-cls}-collapse-button-bg {
+      .@{menu-prefix-cls}-vertical-hover:not(.@{menu-prefix-cls}-inline-collapsed)& {
+        background-color: @menu-dark-bg;
+        box-shadow: -4px 0 2px @menu-dark-bg, 0 0 1px rgba(0, 0, 0, 0.3);
+      }
+    }
+    .@{menu-prefix-cls}-collapse-button {
+      color: @menu-dark-collapsed-button-color;
+      background: @menu-dark-collapsed-button-bg;
+
+      &:hover,
+      &:hover span {
+        color: @menu-dark-collapsed-button-color;
+        background: @menu-dark-collapsed-button-bg-hover;
+      }
+    }
+  }
+
+  // dark disabled
+
+  &-dark &-item-disabled {
+    color: @menu-dark-disabled-color !important;
+    background: none !important;
+
+    a {
+      color: inherit !important;
+      pointer-events: none;
+    }
+  }
+
+  &-dark &-submenu-disabled {
+    > .@{menu-prefix-cls}-submenu-title {
+      color: @menu-dark-disabled-color !important;
+      background: none !important;
+      cursor: not-allowed;
+    }
+  }
+}

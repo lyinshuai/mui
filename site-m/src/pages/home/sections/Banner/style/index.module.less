@@ -1,0 +1,157 @@
+@import '../../../style/common.less';
+
+.banner {
+  &-wrapper {
+    width: 86vw;
+    margin: 0 auto;
+    padding: 11vw 0px 3vw;
+  }
+
+  &-content {
+    display: flex;
+    align-items: flex-start;
+    user-select: none;
+    position: relative;
+
+    &-left {
+      color: #fff;
+      width: 26vw;
+      margin-top: 10px;
+      margin-left: 7vw;
+      min-width: 16.3vw;
+      white-space: nowrap;
+
+      .pos-abs {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+      }
+
+      .txt1-area {
+        position: relative;
+        height: 10.5vw;
+      }
+
+      .txt2-area {
+        position: relative;
+        display: inline-block;
+        height: 1em;
+        width: 8vw;
+        padding-left: 2px;
+      }
+
+      .code-color {
+        color: #00d2ff;
+      }
+
+      .txt-small {
+        font-size: 1.25vw;
+        margin: 5px 0;
+      }
+
+      .txt-big {
+        transform: scale(0.65, 1);
+        transform-origin: left top;
+        font-weight: bold;
+        font-size: 6.7vw;
+        line-height: 5.2vw;
+      }
+
+      .start-btn {
+        position: absolute;
+        left: 7vw;
+        top: 23vw;
+        transform: scale(0.8);
+        transform-origin: left top;
+      }
+    }
+
+    &-right {
+      width: 55vw;
+      position: relative;
+
+      .computer {
+        pointer-events: none;
+        width: 48vw;
+      }
+
+      .bubble {
+        position: absolute;
+        width: 6.5vw;
+        height: 2vw;
+        z-index: 2;
+        opacity: 0.9;
+        animation: bounce-down 1s linear infinite;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .carousel {
+        position: absolute;
+        z-index: 1;
+        left: 5.7vw;
+        top: 1.6vw;
+        width: 36.5vw;
+        height: 22.8vw;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  &-footer {
+    margin-top: 100px;
+
+    > div {
+      margin: 0 auto;
+      width: 1180px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    &-wrapper {
+      padding: 40px 20px 52px;
+    }
+
+    &-content {
+      flex-direction: column;
+
+      &-left {
+        width: 100%;
+        margin-top: 0;
+        min-width: unset;
+      }
+
+      &-right {
+        width: 100%;
+        margin-top: 54px;
+      }
+    }
+
+    &-footer {
+      margin-top: 40px;
+    }
+  }
+}
+
+@keyframes bounce-down {
+  25% {
+    transform: translateY(-4px);
+  }
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(4px);
+  }
+}

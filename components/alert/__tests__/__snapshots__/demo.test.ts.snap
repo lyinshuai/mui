@@ -1,0 +1,1692 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/alert/demo/action.md correctly 1`] = `
+Array [
+  <div
+    class="m-design-alert m-design-alert-success"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-success-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          id="V1.1"
+          stroke="none"
+          stroke-width="1"
+        >
+          <g
+            transform="translate(1111.500000, 752.500000) scale(1, -1) translate(-1111.500000, -752.500000) translate(-498.000000, -289.000000)"
+          >
+            <g
+              transform="translate(518.000000, 1774.000000) scale(1, -1) translate(-518.000000, -1774.000000) translate(498.000000, 1754.000000)"
+            >
+              <path
+                d="M20,0 C31.0457333,0 40,8.95432 40,20 C40,31.0457333 31.0457333,40 20,40 C8.95432,40 0,31.0457333 0,20 C0,8.95432 8.95432,0 20,0 Z"
+                fill="currentColor"
+              />
+              <path
+                d="M26.5366316,13.8097584 L27.4730819,14.5955335 C27.9904786,15.0292464 28.0579436,15.8003155 27.6239738,16.3175006 C27.6239023,16.3175858 27.6238308,16.317671 27.6234971,16.3175362 L19.4477865,26.055586 C19.013568,26.5722688 18.2426353,26.6396548 17.7253105,26.2060465 L15.85241,24.6344963 L24.8141502,13.9602142 C25.2484326,13.4434605 26.0193276,13.3761233 26.5366316,13.8097584 Z"
+                fill="#FFFFFF"
+              />
+              <path
+                d="M12.7149336,20.270914 L13.5351537,19.3599672 C13.9797825,18.866157 14.7374338,18.8179501 15.2410672,19.2514208 L20.9910334,24.2003922 L19.42662,26.082779 C18.9950922,26.6020123 18.224357,26.6731176 17.7051256,26.2415948 C17.698719,26.2362687 17.692368,26.2308809 17.6860743,26.2254294 L12.8229994,22.0128767 C12.312697,21.5708363 12.2573594,20.7988049 12.699403,20.2884987 C12.7045248,20.282586 12.7097026,20.2767236 12.7149336,20.270914 Z"
+                fill="#FFFFFF"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Success Tips
+      </div>
+    </div>
+    <div
+      class="m-design-alert-action"
+    >
+      <button
+        class="m-design-btn m-design-btn-text m-design-btn-sm"
+        type="button"
+      >
+        <span>
+          UNDO
+        </span>
+      </button>
+    </div>
+    <button
+      class="m-design-alert-close-icon"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        aria-label="close"
+        class="anticon anticon-close"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="close"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-error m-design-alert-with-description"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-error-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <path
+          d="m20.09473,0c-11.09803,0 -20.09472,8.94638 -20.09472,19.98236c0,11.03597 8.99669,19.98236 20.09472,19.98236s20.09472,-8.94638 20.09472,-19.98236c0,-11.03597 -8.99669,-19.98236 -20.09472,-19.98236zm8.61203,26.09696l-2.46303,2.44926l-6.14898,-6.89802l-6.15186,6.89802l-2.46017,-2.44926l6.14898,-6.1146l-6.14898,-6.11746l2.46017,-2.44642l6.15186,6.11746l6.14898,-6.11746l2.46303,2.44642l-6.15186,6.11746l6.15186,6.1146z"
+          p-id="1057"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Error Text
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        Error Description Error Description Error Description Error Description
+      </div>
+    </div>
+    <div
+      class="m-design-alert-action"
+    >
+      <button
+        class="m-design-btn m-design-btn-default m-design-btn-sm m-design-btn-dangerous"
+        type="button"
+      >
+        <span>
+          Detail
+        </span>
+      </button>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-warning m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Warning Text
+      </div>
+    </div>
+    <div
+      class="m-design-alert-action"
+    >
+      <div
+        class="m-design-space m-design-space-horizontal m-design-space-align-center"
+      >
+        <div
+          class="m-design-space-item"
+        >
+          <button
+            class="m-design-btn m-design-btn-ghost m-design-btn-sm"
+            type="button"
+          >
+            <span>
+              Done
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <button
+      class="m-design-alert-close-icon"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        aria-label="close"
+        class="anticon anticon-close"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="close"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-info m-design-alert-with-description m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Info Text
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        Info Description Info Description Info Description Info Description
+      </div>
+    </div>
+    <div
+      class="m-design-alert-action"
+    >
+      <div
+        class="m-design-space m-design-space-vertical"
+      >
+        <div
+          class="m-design-space-item"
+          style="margin-bottom:8px"
+        >
+          <button
+            class="m-design-btn m-design-btn-primary m-design-btn-sm"
+            type="button"
+          >
+            <span>
+              Accept
+            </span>
+          </button>
+        </div>
+        <div
+          class="m-design-space-item"
+        >
+          <button
+            class="m-design-btn m-design-btn-ghost m-design-btn-sm m-design-btn-dangerous"
+            type="button"
+          >
+            <span>
+              Decline
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <button
+      class="m-design-alert-close-icon"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        aria-label="close"
+        class="anticon anticon-close"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="close"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`renders ./components/alert/demo/banner.md correctly 1`] = `
+Array [
+  <div
+    class="m-design-alert m-design-alert-warning m-design-alert-banner"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-warning-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          transform="rotate(-180 20 20)"
+        >
+          <g
+            transform="translate(1111.500000, 454.500000) scale(1, -1) translate(-1111.500000, -454.500000) translate(-498.000000, -587.000000)"
+          >
+            <g
+              transform="translate(518.000000, 1476.000000) scale(1, -1) translate(-518.000000, -1476.000000) translate(498.000000, 1456.000000)"
+            >
+              <path
+                d="m20,40c11.04578,0 20,-8.95422 20,-20c0,-11.04569 -8.95422,-20 -20,-20c-11.04569,0 -20,8.95431 -20,20c0,11.04578 8.95431,20 20,20z"
+                fill="currentColor"
+                fill-rule="nonzero"
+              />
+              <path
+                d="m21.13043,15c0.48025,0 0.86957,-0.38932 0.86957,-0.86957l0,-2.26086c0,-0.48025 -0.38932,-0.86957 -0.86957,-0.86957l-2.26086,0c-0.48025,0 -0.86957,0.38932 -0.86957,0.86957l0,2.26086c0,0.48025 0.38932,0.86957 0.86957,0.86957l2.26086,0zm0,14c0.48025,0 0.86957,-0.42911 0.86957,-0.95844l0,-10.08312c0,-0.52933 -0.38932,-0.95844 -0.86957,-0.95844l-2.26086,0c-0.48025,0 -0.86957,0.42911 -0.86957,0.95844l0,10.08312c0,0.52933 0.38932,0.95844 0.86957,0.95844l2.26086,0z"
+                fill="#FFFFFF"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Warning text
+      </div>
+    </div>
+  </div>,
+  <br />,
+  <div
+    class="m-design-alert m-design-alert-warning m-design-alert-banner"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-warning-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          transform="rotate(-180 20 20)"
+        >
+          <g
+            transform="translate(1111.500000, 454.500000) scale(1, -1) translate(-1111.500000, -454.500000) translate(-498.000000, -587.000000)"
+          >
+            <g
+              transform="translate(518.000000, 1476.000000) scale(1, -1) translate(-518.000000, -1476.000000) translate(498.000000, 1456.000000)"
+            >
+              <path
+                d="m20,40c11.04578,0 20,-8.95422 20,-20c0,-11.04569 -8.95422,-20 -20,-20c-11.04569,0 -20,8.95431 -20,20c0,11.04578 8.95431,20 20,20z"
+                fill="currentColor"
+                fill-rule="nonzero"
+              />
+              <path
+                d="m21.13043,15c0.48025,0 0.86957,-0.38932 0.86957,-0.86957l0,-2.26086c0,-0.48025 -0.38932,-0.86957 -0.86957,-0.86957l-2.26086,0c-0.48025,0 -0.86957,0.38932 -0.86957,0.86957l0,2.26086c0,0.48025 0.38932,0.86957 0.86957,0.86957l2.26086,0zm0,14c0.48025,0 0.86957,-0.42911 0.86957,-0.95844l0,-10.08312c0,-0.52933 -0.38932,-0.95844 -0.86957,-0.95844l-2.26086,0c-0.48025,0 -0.86957,0.42911 -0.86957,0.95844l0,10.08312c0,0.52933 0.38932,0.95844 0.86957,0.95844l2.26086,0z"
+                fill="#FFFFFF"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Very long warning text warning text text text text text text text
+      </div>
+    </div>
+    <button
+      class="m-design-alert-close-icon"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        aria-label="close"
+        class="anticon anticon-close"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="close"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>,
+  <br />,
+  <div
+    class="m-design-alert m-design-alert-warning m-design-alert-no-icon m-design-alert-banner"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Warning text without icon
+      </div>
+    </div>
+  </div>,
+  <br />,
+  <div
+    class="m-design-alert m-design-alert-error m-design-alert-banner"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-error-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <path
+          d="m20.09473,0c-11.09803,0 -20.09472,8.94638 -20.09472,19.98236c0,11.03597 8.99669,19.98236 20.09472,19.98236s20.09472,-8.94638 20.09472,-19.98236c0,-11.03597 -8.99669,-19.98236 -20.09472,-19.98236zm8.61203,26.09696l-2.46303,2.44926l-6.14898,-6.89802l-6.15186,6.89802l-2.46017,-2.44926l6.14898,-6.1146l-6.14898,-6.11746l2.46017,-2.44642l6.15186,6.11746l6.14898,-6.11746l2.46303,2.44642l-6.15186,6.11746l6.15186,6.1146z"
+          p-id="1057"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Error text
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/alert/demo/basic.md correctly 1`] = `
+<div
+  class="m-design-alert m-design-alert-success m-design-alert-no-icon"
+  data-show="true"
+  role="alert"
+>
+  <div
+    class="m-design-alert-content"
+  >
+    <div
+      class="m-design-alert-message"
+    >
+      Success Text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/alert/demo/closable.md correctly 1`] = `
+Array [
+  <div
+    class="m-design-alert m-design-alert-warning m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Warning Text Warning Text Warning TextW arning Text Warning Text Warning TextWarning Text
+      </div>
+    </div>
+    <button
+      class="m-design-alert-close-icon"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        aria-label="close"
+        class="anticon anticon-close"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="close"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-error m-design-alert-with-description m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Error Text
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        Error Description Error Description Error Description Error Description Error Description Error Description
+      </div>
+    </div>
+    <button
+      class="m-design-alert-close-icon"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        aria-label="close"
+        class="anticon anticon-close"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="close"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`renders ./components/alert/demo/close-text.md correctly 1`] = `
+<div
+  class="m-design-alert m-design-alert-info m-design-alert-no-icon"
+  data-show="true"
+  role="alert"
+>
+  <div
+    class="m-design-alert-content"
+  >
+    <div
+      class="m-design-alert-message"
+    >
+      Info Text
+    </div>
+  </div>
+  <button
+    class="m-design-alert-close-icon"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="m-design-alert-close-text"
+    >
+      Close Now
+    </span>
+  </button>
+</div>
+`;
+
+exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
+Array [
+  <div
+    class="m-design-alert m-design-alert-success m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        showIcon = false
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-success"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      aria-label="smile"
+      class="anticon anticon-smile m-design-alert-icon"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="smile"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M288 421a48 48 0 1096 0 48 48 0 10-96 0zm352 0a48 48 0 1096 0 48 48 0 10-96 0zM512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm263 711c-34.2 34.2-74 61-118.3 79.8C611 874.2 562.3 884 512 884c-50.3 0-99-9.8-144.8-29.2A370.4 370.4 0 01248.9 775c-34.2-34.2-61-74-79.8-118.3C149.8 611 140 562.3 140 512s9.8-99 29.2-144.8A370.4 370.4 0 01249 248.9c34.2-34.2 74-61 118.3-79.8C413 149.8 461.7 140 512 140c50.3 0 99 9.8 144.8 29.2A370.4 370.4 0 01775.1 249c34.2 34.2 61 74 79.8 118.3C874.2 413 884 461.7 884 512s-9.8 99-29.2 144.8A368.89 368.89 0 01775 775zM664 533h-48.1c-4.2 0-7.8 3.2-8.1 7.4C604 589.9 562.5 629 512 629s-92.1-39.1-95.8-88.6c-.3-4.2-3.9-7.4-8.1-7.4H360a8 8 0 00-8 8.4c4.4 84.3 74.5 151.6 160 151.6s155.6-67.3 160-151.6a8 8 0 00-8-8.4z"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Success Tips
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-info"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      aria-label="smile"
+      class="anticon anticon-smile m-design-alert-icon"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="smile"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M288 421a48 48 0 1096 0 48 48 0 10-96 0zm352 0a48 48 0 1096 0 48 48 0 10-96 0zM512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm263 711c-34.2 34.2-74 61-118.3 79.8C611 874.2 562.3 884 512 884c-50.3 0-99-9.8-144.8-29.2A370.4 370.4 0 01248.9 775c-34.2-34.2-61-74-79.8-118.3C149.8 611 140 562.3 140 512s9.8-99 29.2-144.8A370.4 370.4 0 01249 248.9c34.2-34.2 74-61 118.3-79.8C413 149.8 461.7 140 512 140c50.3 0 99 9.8 144.8 29.2A370.4 370.4 0 01775.1 249c34.2 34.2 61 74 79.8 118.3C874.2 413 884 461.7 884 512s-9.8 99-29.2 144.8A368.89 368.89 0 01775 775zM664 533h-48.1c-4.2 0-7.8 3.2-8.1 7.4C604 589.9 562.5 629 512 629s-92.1-39.1-95.8-88.6c-.3-4.2-3.9-7.4-8.1-7.4H360a8 8 0 00-8 8.4c4.4 84.3 74.5 151.6 160 151.6s155.6-67.3 160-151.6a8 8 0 00-8-8.4z"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Informational Notes
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-warning"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      aria-label="smile"
+      class="anticon anticon-smile m-design-alert-icon"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="smile"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M288 421a48 48 0 1096 0 48 48 0 10-96 0zm352 0a48 48 0 1096 0 48 48 0 10-96 0zM512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm263 711c-34.2 34.2-74 61-118.3 79.8C611 874.2 562.3 884 512 884c-50.3 0-99-9.8-144.8-29.2A370.4 370.4 0 01248.9 775c-34.2-34.2-61-74-79.8-118.3C149.8 611 140 562.3 140 512s9.8-99 29.2-144.8A370.4 370.4 0 01249 248.9c34.2-34.2 74-61 118.3-79.8C413 149.8 461.7 140 512 140c50.3 0 99 9.8 144.8 29.2A370.4 370.4 0 01775.1 249c34.2 34.2 61 74 79.8 118.3C874.2 413 884 461.7 884 512s-9.8 99-29.2 144.8A368.89 368.89 0 01775 775zM664 533h-48.1c-4.2 0-7.8 3.2-8.1 7.4C604 589.9 562.5 629 512 629s-92.1-39.1-95.8-88.6c-.3-4.2-3.9-7.4-8.1-7.4H360a8 8 0 00-8 8.4c4.4 84.3 74.5 151.6 160 151.6s155.6-67.3 160-151.6a8 8 0 00-8-8.4z"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Warning
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-error"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      aria-label="smile"
+      class="anticon anticon-smile m-design-alert-icon"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="smile"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M288 421a48 48 0 1096 0 48 48 0 10-96 0zm352 0a48 48 0 1096 0 48 48 0 10-96 0zM512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm263 711c-34.2 34.2-74 61-118.3 79.8C611 874.2 562.3 884 512 884c-50.3 0-99-9.8-144.8-29.2A370.4 370.4 0 01248.9 775c-34.2-34.2-61-74-79.8-118.3C149.8 611 140 562.3 140 512s9.8-99 29.2-144.8A370.4 370.4 0 01249 248.9c34.2-34.2 74-61 118.3-79.8C413 149.8 461.7 140 512 140c50.3 0 99 9.8 144.8 29.2A370.4 370.4 0 01775.1 249c34.2 34.2 61 74 79.8 118.3C874.2 413 884 461.7 884 512s-9.8 99-29.2 144.8A368.89 368.89 0 01775 775zM664 533h-48.1c-4.2 0-7.8 3.2-8.1 7.4C604 589.9 562.5 629 512 629s-92.1-39.1-95.8-88.6c-.3-4.2-3.9-7.4-8.1-7.4H360a8 8 0 00-8 8.4c4.4 84.3 74.5 151.6 160 151.6s155.6-67.3 160-151.6a8 8 0 00-8-8.4z"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Error
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-success m-design-alert-with-description"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      aria-label="smile"
+      class="anticon anticon-smile m-design-alert-icon"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="smile"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M288 421a48 48 0 1096 0 48 48 0 10-96 0zm352 0a48 48 0 1096 0 48 48 0 10-96 0zM512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm263 711c-34.2 34.2-74 61-118.3 79.8C611 874.2 562.3 884 512 884c-50.3 0-99-9.8-144.8-29.2A370.4 370.4 0 01248.9 775c-34.2-34.2-61-74-79.8-118.3C149.8 611 140 562.3 140 512s9.8-99 29.2-144.8A370.4 370.4 0 01249 248.9c34.2-34.2 74-61 118.3-79.8C413 149.8 461.7 140 512 140c50.3 0 99 9.8 144.8 29.2A370.4 370.4 0 01775.1 249c34.2 34.2 61 74 79.8 118.3C874.2 413 884 461.7 884 512s-9.8 99-29.2 144.8A368.89 368.89 0 01775 775zM664 533h-48.1c-4.2 0-7.8 3.2-8.1 7.4C604 589.9 562.5 629 512 629s-92.1-39.1-95.8-88.6c-.3-4.2-3.9-7.4-8.1-7.4H360a8 8 0 00-8 8.4c4.4 84.3 74.5 151.6 160 151.6s155.6-67.3 160-151.6a8 8 0 00-8-8.4z"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Success Tips
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        Detailed description and advices about successful copywriting.
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-info m-design-alert-with-description"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      aria-label="smile"
+      class="anticon anticon-smile m-design-alert-icon"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="smile"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M288 421a48 48 0 1096 0 48 48 0 10-96 0zm352 0a48 48 0 1096 0 48 48 0 10-96 0zM512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm263 711c-34.2 34.2-74 61-118.3 79.8C611 874.2 562.3 884 512 884c-50.3 0-99-9.8-144.8-29.2A370.4 370.4 0 01248.9 775c-34.2-34.2-61-74-79.8-118.3C149.8 611 140 562.3 140 512s9.8-99 29.2-144.8A370.4 370.4 0 01249 248.9c34.2-34.2 74-61 118.3-79.8C413 149.8 461.7 140 512 140c50.3 0 99 9.8 144.8 29.2A370.4 370.4 0 01775.1 249c34.2 34.2 61 74 79.8 118.3C874.2 413 884 461.7 884 512s-9.8 99-29.2 144.8A368.89 368.89 0 01775 775zM664 533h-48.1c-4.2 0-7.8 3.2-8.1 7.4C604 589.9 562.5 629 512 629s-92.1-39.1-95.8-88.6c-.3-4.2-3.9-7.4-8.1-7.4H360a8 8 0 00-8 8.4c4.4 84.3 74.5 151.6 160 151.6s155.6-67.3 160-151.6a8 8 0 00-8-8.4z"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Informational Notes
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        Additional description and informations about copywriting.
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-warning m-design-alert-with-description"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      aria-label="smile"
+      class="anticon anticon-smile m-design-alert-icon"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="smile"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M288 421a48 48 0 1096 0 48 48 0 10-96 0zm352 0a48 48 0 1096 0 48 48 0 10-96 0zM512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm263 711c-34.2 34.2-74 61-118.3 79.8C611 874.2 562.3 884 512 884c-50.3 0-99-9.8-144.8-29.2A370.4 370.4 0 01248.9 775c-34.2-34.2-61-74-79.8-118.3C149.8 611 140 562.3 140 512s9.8-99 29.2-144.8A370.4 370.4 0 01249 248.9c34.2-34.2 74-61 118.3-79.8C413 149.8 461.7 140 512 140c50.3 0 99 9.8 144.8 29.2A370.4 370.4 0 01775.1 249c34.2 34.2 61 74 79.8 118.3C874.2 413 884 461.7 884 512s-9.8 99-29.2 144.8A368.89 368.89 0 01775 775zM664 533h-48.1c-4.2 0-7.8 3.2-8.1 7.4C604 589.9 562.5 629 512 629s-92.1-39.1-95.8-88.6c-.3-4.2-3.9-7.4-8.1-7.4H360a8 8 0 00-8 8.4c4.4 84.3 74.5 151.6 160 151.6s155.6-67.3 160-151.6a8 8 0 00-8-8.4z"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Warning
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        This is a warning notice about copywriting.
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-error m-design-alert-with-description"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      aria-label="smile"
+      class="anticon anticon-smile m-design-alert-icon"
+      role="img"
+    >
+      <svg
+        aria-hidden="true"
+        data-icon="smile"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M288 421a48 48 0 1096 0 48 48 0 10-96 0zm352 0a48 48 0 1096 0 48 48 0 10-96 0zM512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm263 711c-34.2 34.2-74 61-118.3 79.8C611 874.2 562.3 884 512 884c-50.3 0-99-9.8-144.8-29.2A370.4 370.4 0 01248.9 775c-34.2-34.2-61-74-79.8-118.3C149.8 611 140 562.3 140 512s9.8-99 29.2-144.8A370.4 370.4 0 01249 248.9c34.2-34.2 74-61 118.3-79.8C413 149.8 461.7 140 512 140c50.3 0 99 9.8 144.8 29.2A370.4 370.4 0 01775.1 249c34.2 34.2 61 74 79.8 118.3C874.2 413 884 461.7 884 512s-9.8 99-29.2 144.8A368.89 368.89 0 01775 775zM664 533h-48.1c-4.2 0-7.8 3.2-8.1 7.4C604 589.9 562.5 629 512 629s-92.1-39.1-95.8-88.6c-.3-4.2-3.9-7.4-8.1-7.4H360a8 8 0 00-8 8.4c4.4 84.3 74.5 151.6 160 151.6s155.6-67.3 160-151.6a8 8 0 00-8-8.4z"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Error
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        This is an error message about copywriting.
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/alert/demo/description.md correctly 1`] = `
+Array [
+  <div
+    class="m-design-alert m-design-alert-success m-design-alert-with-description m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Success Text
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        Success Description Success Description Success Description
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-info m-design-alert-with-description m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Info Text
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        Info Description Info Description Info Description Info Description
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-warning m-design-alert-with-description m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Warning Text
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        Warning Description Warning Description Warning Description Warning Description
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-error m-design-alert-with-description m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Error Text
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        Error Description Error Description Error Description Error Description
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/alert/demo/error-boundary.md correctly 1`] = `
+<button
+  class="m-design-btn m-design-btn-default m-design-btn-dangerous"
+  type="button"
+>
+  <span>
+    Click me to throw a error
+  </span>
+</button>
+`;
+
+exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
+Array [
+  <div
+    class="m-design-alert m-design-alert-success"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-success-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          id="V1.1"
+          stroke="none"
+          stroke-width="1"
+        >
+          <g
+            transform="translate(1111.500000, 752.500000) scale(1, -1) translate(-1111.500000, -752.500000) translate(-498.000000, -289.000000)"
+          >
+            <g
+              transform="translate(518.000000, 1774.000000) scale(1, -1) translate(-518.000000, -1774.000000) translate(498.000000, 1754.000000)"
+            >
+              <path
+                d="M20,0 C31.0457333,0 40,8.95432 40,20 C40,31.0457333 31.0457333,40 20,40 C8.95432,40 0,31.0457333 0,20 C0,8.95432 8.95432,0 20,0 Z"
+                fill="currentColor"
+              />
+              <path
+                d="M26.5366316,13.8097584 L27.4730819,14.5955335 C27.9904786,15.0292464 28.0579436,15.8003155 27.6239738,16.3175006 C27.6239023,16.3175858 27.6238308,16.317671 27.6234971,16.3175362 L19.4477865,26.055586 C19.013568,26.5722688 18.2426353,26.6396548 17.7253105,26.2060465 L15.85241,24.6344963 L24.8141502,13.9602142 C25.2484326,13.4434605 26.0193276,13.3761233 26.5366316,13.8097584 Z"
+                fill="#FFFFFF"
+              />
+              <path
+                d="M12.7149336,20.270914 L13.5351537,19.3599672 C13.9797825,18.866157 14.7374338,18.8179501 15.2410672,19.2514208 L20.9910334,24.2003922 L19.42662,26.082779 C18.9950922,26.6020123 18.224357,26.6731176 17.7051256,26.2415948 C17.698719,26.2362687 17.692368,26.2308809 17.6860743,26.2254294 L12.8229994,22.0128767 C12.312697,21.5708363 12.2573594,20.7988049 12.699403,20.2884987 C12.7045248,20.282586 12.7097026,20.2767236 12.7149336,20.270914 Z"
+                fill="#FFFFFF"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Success Tips
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-info"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-info-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          id="V1.1"
+          stroke="none"
+          stroke-width="1"
+        >
+          <g
+            transform="translate(1111.500000, 454.500000) scale(1, -1) translate(-1111.500000, -454.500000) translate(-498.000000, -587.000000)"
+          >
+            <g
+              transform="translate(518.000000, 1476.000000) scale(1, -1) translate(-518.000000, -1476.000000) translate(498.000000, 1456.000000)"
+            >
+              <path
+                d="M20,40 C31.0457778,40 40,31.0457778 40,20 C40,8.95431111 31.0457778,0 20,0 C8.95431111,0 0,8.95431111 0,20 C0,31.0457778 8.95431111,40 20,40 Z"
+                fill="currentColor"
+                fill-rule="nonzero"
+              />
+              <path
+                d="M21.1304348,25 C21.6106783,25 22,25.3893217 22,25.8695652 L22,28.1304348 C22,28.6106783 21.6106783,29 21.1304348,29 L18.8695652,29 C18.3893183,29 18,28.6106783 18,28.1304348 L18,25.8695652 C18,25.3893217 18.3893183,25 18.8695652,25 L21.1304348,25 Z M21.1304348,11 C21.6106783,11 22,11.4291077 22,11.9584374 L22,22.0415626 C22,22.5708884 21.6106783,23 21.1304348,23 L18.8695652,23 C18.3893183,23 18,22.5708884 18,22.0415626 L18,11.9584374 C18,11.4291077 18.3893183,11 18.8695652,11 L21.1304348,11 Z"
+                fill="#FFFFFF"
+                transform="translate(20.000000, 20.000000) scale(1, -1) translate(-20.000000, -20.000000) "
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Informational Notes
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-warning"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-warning-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          transform="rotate(-180 20 20)"
+        >
+          <g
+            transform="translate(1111.500000, 454.500000) scale(1, -1) translate(-1111.500000, -454.500000) translate(-498.000000, -587.000000)"
+          >
+            <g
+              transform="translate(518.000000, 1476.000000) scale(1, -1) translate(-518.000000, -1476.000000) translate(498.000000, 1456.000000)"
+            >
+              <path
+                d="m20,40c11.04578,0 20,-8.95422 20,-20c0,-11.04569 -8.95422,-20 -20,-20c-11.04569,0 -20,8.95431 -20,20c0,11.04578 8.95431,20 20,20z"
+                fill="currentColor"
+                fill-rule="nonzero"
+              />
+              <path
+                d="m21.13043,15c0.48025,0 0.86957,-0.38932 0.86957,-0.86957l0,-2.26086c0,-0.48025 -0.38932,-0.86957 -0.86957,-0.86957l-2.26086,0c-0.48025,0 -0.86957,0.38932 -0.86957,0.86957l0,2.26086c0,0.48025 0.38932,0.86957 0.86957,0.86957l2.26086,0zm0,14c0.48025,0 0.86957,-0.42911 0.86957,-0.95844l0,-10.08312c0,-0.52933 -0.38932,-0.95844 -0.86957,-0.95844l-2.26086,0c-0.48025,0 -0.86957,0.42911 -0.86957,0.95844l0,10.08312c0,0.52933 0.38932,0.95844 0.86957,0.95844l2.26086,0z"
+                fill="#FFFFFF"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Warning
+      </div>
+    </div>
+    <button
+      class="m-design-alert-close-icon"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        aria-label="close"
+        class="anticon anticon-close"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="close"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-error"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-error-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <path
+          d="m20.09473,0c-11.09803,0 -20.09472,8.94638 -20.09472,19.98236c0,11.03597 8.99669,19.98236 20.09472,19.98236s20.09472,-8.94638 20.09472,-19.98236c0,-11.03597 -8.99669,-19.98236 -20.09472,-19.98236zm8.61203,26.09696l-2.46303,2.44926l-6.14898,-6.89802l-6.15186,6.89802l-2.46017,-2.44926l6.14898,-6.1146l-6.14898,-6.11746l2.46017,-2.44642l6.15186,6.11746l6.14898,-6.11746l2.46303,2.44642l-6.15186,6.11746l6.15186,6.1146z"
+          p-id="1057"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Error
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-success m-design-alert-with-description"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-success-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          id="V1.1"
+          stroke="none"
+          stroke-width="1"
+        >
+          <g
+            transform="translate(1111.500000, 752.500000) scale(1, -1) translate(-1111.500000, -752.500000) translate(-498.000000, -289.000000)"
+          >
+            <g
+              transform="translate(518.000000, 1774.000000) scale(1, -1) translate(-518.000000, -1774.000000) translate(498.000000, 1754.000000)"
+            >
+              <path
+                d="M20,0 C31.0457333,0 40,8.95432 40,20 C40,31.0457333 31.0457333,40 20,40 C8.95432,40 0,31.0457333 0,20 C0,8.95432 8.95432,0 20,0 Z"
+                fill="currentColor"
+              />
+              <path
+                d="M26.5366316,13.8097584 L27.4730819,14.5955335 C27.9904786,15.0292464 28.0579436,15.8003155 27.6239738,16.3175006 C27.6239023,16.3175858 27.6238308,16.317671 27.6234971,16.3175362 L19.4477865,26.055586 C19.013568,26.5722688 18.2426353,26.6396548 17.7253105,26.2060465 L15.85241,24.6344963 L24.8141502,13.9602142 C25.2484326,13.4434605 26.0193276,13.3761233 26.5366316,13.8097584 Z"
+                fill="#FFFFFF"
+              />
+              <path
+                d="M12.7149336,20.270914 L13.5351537,19.3599672 C13.9797825,18.866157 14.7374338,18.8179501 15.2410672,19.2514208 L20.9910334,24.2003922 L19.42662,26.082779 C18.9950922,26.6020123 18.224357,26.6731176 17.7051256,26.2415948 C17.698719,26.2362687 17.692368,26.2308809 17.6860743,26.2254294 L12.8229994,22.0128767 C12.312697,21.5708363 12.2573594,20.7988049 12.699403,20.2884987 C12.7045248,20.282586 12.7097026,20.2767236 12.7149336,20.270914 Z"
+                fill="#FFFFFF"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Success Tips
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        Detailed description and advice about successful copywriting.
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-info m-design-alert-with-description"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-info-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          id="V1.1"
+          stroke="none"
+          stroke-width="1"
+        >
+          <g
+            transform="translate(1111.500000, 454.500000) scale(1, -1) translate(-1111.500000, -454.500000) translate(-498.000000, -587.000000)"
+          >
+            <g
+              transform="translate(518.000000, 1476.000000) scale(1, -1) translate(-518.000000, -1476.000000) translate(498.000000, 1456.000000)"
+            >
+              <path
+                d="M20,40 C31.0457778,40 40,31.0457778 40,20 C40,8.95431111 31.0457778,0 20,0 C8.95431111,0 0,8.95431111 0,20 C0,31.0457778 8.95431111,40 20,40 Z"
+                fill="currentColor"
+                fill-rule="nonzero"
+              />
+              <path
+                d="M21.1304348,25 C21.6106783,25 22,25.3893217 22,25.8695652 L22,28.1304348 C22,28.6106783 21.6106783,29 21.1304348,29 L18.8695652,29 C18.3893183,29 18,28.6106783 18,28.1304348 L18,25.8695652 C18,25.3893217 18.3893183,25 18.8695652,25 L21.1304348,25 Z M21.1304348,11 C21.6106783,11 22,11.4291077 22,11.9584374 L22,22.0415626 C22,22.5708884 21.6106783,23 21.1304348,23 L18.8695652,23 C18.3893183,23 18,22.5708884 18,22.0415626 L18,11.9584374 C18,11.4291077 18.3893183,11 18.8695652,11 L21.1304348,11 Z"
+                fill="#FFFFFF"
+                transform="translate(20.000000, 20.000000) scale(1, -1) translate(-20.000000, -20.000000) "
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Informational Notes
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        Additional description and information about copywriting.
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-warning m-design-alert-with-description"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-warning-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          transform="rotate(-180 20 20)"
+        >
+          <g
+            transform="translate(1111.500000, 454.500000) scale(1, -1) translate(-1111.500000, -454.500000) translate(-498.000000, -587.000000)"
+          >
+            <g
+              transform="translate(518.000000, 1476.000000) scale(1, -1) translate(-518.000000, -1476.000000) translate(498.000000, 1456.000000)"
+            >
+              <path
+                d="m20,40c11.04578,0 20,-8.95422 20,-20c0,-11.04569 -8.95422,-20 -20,-20c-11.04569,0 -20,8.95431 -20,20c0,11.04578 8.95431,20 20,20z"
+                fill="currentColor"
+                fill-rule="nonzero"
+              />
+              <path
+                d="m21.13043,15c0.48025,0 0.86957,-0.38932 0.86957,-0.86957l0,-2.26086c0,-0.48025 -0.38932,-0.86957 -0.86957,-0.86957l-2.26086,0c-0.48025,0 -0.86957,0.38932 -0.86957,0.86957l0,2.26086c0,0.48025 0.38932,0.86957 0.86957,0.86957l2.26086,0zm0,14c0.48025,0 0.86957,-0.42911 0.86957,-0.95844l0,-10.08312c0,-0.52933 -0.38932,-0.95844 -0.86957,-0.95844l-2.26086,0c-0.48025,0 -0.86957,0.42911 -0.86957,0.95844l0,10.08312c0,0.52933 0.38932,0.95844 0.86957,0.95844l2.26086,0z"
+                fill="#FFFFFF"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Warning
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        This is a warning notice about copywriting.
+      </div>
+    </div>
+    <button
+      class="m-design-alert-close-icon"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        aria-label="close"
+        class="anticon anticon-close"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="close"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-error m-design-alert-with-description"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-error-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <path
+          d="m20.09473,0c-11.09803,0 -20.09472,8.94638 -20.09472,19.98236c0,11.03597 8.99669,19.98236 20.09472,19.98236s20.09472,-8.94638 20.09472,-19.98236c0,-11.03597 -8.99669,-19.98236 -20.09472,-19.98236zm8.61203,26.09696l-2.46303,2.44926l-6.14898,-6.89802l-6.15186,6.89802l-2.46017,-2.44926l6.14898,-6.1146l-6.14898,-6.11746l2.46017,-2.44642l6.15186,6.11746l6.14898,-6.11746l2.46303,2.44642l-6.15186,6.11746l6.15186,6.1146z"
+          p-id="1057"
+        />
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Error
+      </div>
+      <div
+        class="m-design-alert-description"
+      >
+        This is an error message about copywriting.
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/alert/demo/loop-banner.md correctly 1`] = `
+Array [
+  <div
+    class="m-design-alert m-design-alert-warning m-design-alert-banner"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-warning-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          transform="rotate(-180 20 20)"
+        >
+          <g
+            transform="translate(1111.500000, 454.500000) scale(1, -1) translate(-1111.500000, -454.500000) translate(-498.000000, -587.000000)"
+          >
+            <g
+              transform="translate(518.000000, 1476.000000) scale(1, -1) translate(-518.000000, -1476.000000) translate(498.000000, 1456.000000)"
+            >
+              <path
+                d="m20,40c11.04578,0 20,-8.95422 20,-20c0,-11.04569 -8.95422,-20 -20,-20c-11.04569,0 -20,8.95431 -20,20c0,11.04578 8.95431,20 20,20z"
+                fill="currentColor"
+                fill-rule="nonzero"
+              />
+              <path
+                d="m21.13043,15c0.48025,0 0.86957,-0.38932 0.86957,-0.86957l0,-2.26086c0,-0.48025 -0.38932,-0.86957 -0.86957,-0.86957l-2.26086,0c-0.48025,0 -0.86957,0.38932 -0.86957,0.86957l0,2.26086c0,0.48025 0.38932,0.86957 0.86957,0.86957l2.26086,0zm0,14c0.48025,0 0.86957,-0.42911 0.86957,-0.95844l0,-10.08312c0,-0.52933 -0.38932,-0.95844 -0.86957,-0.95844l-2.26086,0c-0.48025,0 -0.86957,0.42911 -0.86957,0.95844l0,10.08312c0,0.52933 0.38932,0.95844 0.86957,0.95844l2.26086,0z"
+                fill="#FFFFFF"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        <div
+          class="x0 x1 x2 x3 "
+        >
+          <div
+            style="transition:width 150ms linear;height:auto;width:auto"
+          >
+            <div
+              class="x1 x4 x5 x6"
+              style="opacity:1;transform:translateY(0px);position:relative"
+            >
+              <div>
+                Notice message one
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-warning m-design-alert-banner"
+    data-show="true"
+    role="alert"
+  >
+    <span
+      class="anticon result-warning-icon"
+      role="img"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 40 40"
+        width="1em"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          transform="rotate(-180 20 20)"
+        >
+          <g
+            transform="translate(1111.500000, 454.500000) scale(1, -1) translate(-1111.500000, -454.500000) translate(-498.000000, -587.000000)"
+          >
+            <g
+              transform="translate(518.000000, 1476.000000) scale(1, -1) translate(-518.000000, -1476.000000) translate(498.000000, 1456.000000)"
+            >
+              <path
+                d="m20,40c11.04578,0 20,-8.95422 20,-20c0,-11.04569 -8.95422,-20 -20,-20c-11.04569,0 -20,8.95431 -20,20c0,11.04578 8.95431,20 20,20z"
+                fill="currentColor"
+                fill-rule="nonzero"
+              />
+              <path
+                d="m21.13043,15c0.48025,0 0.86957,-0.38932 0.86957,-0.86957l0,-2.26086c0,-0.48025 -0.38932,-0.86957 -0.86957,-0.86957l-2.26086,0c-0.48025,0 -0.86957,0.38932 -0.86957,0.86957l0,2.26086c0,0.48025 0.38932,0.86957 0.86957,0.86957l2.26086,0zm0,14c0.48025,0 0.86957,-0.42911 0.86957,-0.95844l0,-10.08312c0,-0.52933 -0.38932,-0.95844 -0.86957,-0.95844l-2.26086,0c-0.48025,0 -0.86957,0.42911 -0.86957,0.95844l0,10.08312c0,0.52933 0.38932,0.95844 0.86957,0.95844l2.26086,0z"
+                fill="#FFFFFF"
+              />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </span>
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`renders ./components/alert/demo/smooth-closed.md correctly 1`] = `
+<div>
+  <div
+    class="m-design-alert m-design-alert-success m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Alert Message Text
+      </div>
+    </div>
+    <button
+      class="m-design-alert-close-icon"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        aria-label="close"
+        class="anticon anticon-close"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="close"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>
+  <p>
+    placeholder text here
+  </p>
+</div>
+`;
+
+exports[`renders ./components/alert/demo/style.md correctly 1`] = `
+Array [
+  <div
+    class="m-design-alert m-design-alert-success m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Success Text
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-info m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Info Text
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-warning m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Warning Text
+      </div>
+    </div>
+  </div>,
+  <div
+    class="m-design-alert m-design-alert-error m-design-alert-no-icon"
+    data-show="true"
+    role="alert"
+  >
+    <div
+      class="m-design-alert-content"
+    >
+      <div
+        class="m-design-alert-message"
+      >
+        Error Text
+      </div>
+    </div>
+  </div>,
+]
+`;

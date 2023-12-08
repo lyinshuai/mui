@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/message/demo/custom-style.md correctly 1`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span>
+    Customized style
+  </span>
+</button>
+`;
+
+exports[`renders ./components/message/demo/duration.md correctly 1`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span>
+    Customized display duration
+  </span>
+</button>
+`;
+
+exports[`renders ./components/message/demo/hooks.md correctly 1`] = `
+<button
+  class="m-design-btn m-design-btn-primary"
+  type="button"
+>
+  <span>
+    Display normal message
+  </span>
+</button>
+`;
+
+exports[`renders ./components/message/demo/info.md correctly 1`] = `
+<button
+  class="m-design-btn m-design-btn-primary"
+  type="button"
+>
+  <span>
+    Display normal message
+  </span>
+</button>
+`;
+
+exports[`renders ./components/message/demo/loading.md correctly 1`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span>
+    Display a loading indicator
+  </span>
+</button>
+`;
+
+exports[`renders ./components/message/demo/other.md correctly 1`] = `
+<div
+  class="m-design-space m-design-space-horizontal m-design-space-align-center"
+>
+  <div
+    class="m-design-space-item"
+    style="margin-right:8px"
+  >
+    <button
+      class="m-design-btn m-design-btn-default"
+      type="button"
+    >
+      <span>
+        Info
+      </span>
+    </button>
+  </div>
+  <div
+    class="m-design-space-item"
+    style="margin-right:8px"
+  >
+    <button
+      class="m-design-btn m-design-btn-default"
+      type="button"
+    >
+      <span>
+        Success
+      </span>
+    </button>
+  </div>
+  <div
+    class="m-design-space-item"
+    style="margin-right:8px"
+  >
+    <button
+      class="m-design-btn m-design-btn-default"
+      type="button"
+    >
+      <span>
+        Error
+      </span>
+    </button>
+  </div>
+  <div
+    class="m-design-space-item"
+  >
+    <button
+      class="m-design-btn m-design-btn-default"
+      type="button"
+    >
+      <span>
+        Warning
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/message/demo/thenable.md correctly 1`] = `
+<button
+  class="m-design-btn m-design-btn-default"
+  type="button"
+>
+  <span>
+    Display sequential messages
+  </span>
+</button>
+`;
+
+exports[`renders ./components/message/demo/update.md correctly 1`] = `
+<button
+  class="m-design-btn m-design-btn-primary"
+  type="button"
+>
+  <span>
+    Open the message box
+  </span>
+</button>
+`;

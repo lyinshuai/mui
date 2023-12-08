@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag rtl render component should be rendered correctly in RTL direction 1`] = `
+<span
+  class="m-design-tag m-design-tag-rtl"
+/>
+`;
+
+exports[`Tag rtl render component should be rendered correctly in RTL direction 2`] = `
+<span
+  class="m-design-tag m-design-tag-checkable"
+/>
+`;
+
+exports[`Tag visibility can be controlled by visible with hidden as initial value 1`] = `
+<span
+  class="m-design-tag m-design-tag-hidden"
+/>
+`;
+
+exports[`Tag visibility can be controlled by visible with hidden as initial value 2`] = `
+<span
+  class="m-design-tag"
+/>
+`;
+
+exports[`Tag visibility can be controlled by visible with hidden as initial value 3`] = `
+<span
+  class="m-design-tag m-design-tag-hidden"
+/>
+`;
+
+exports[`Tag visibility can be controlled by visible with visible as initial value 1`] = `
+<span
+  class="m-design-tag"
+/>
+`;
+
+exports[`Tag visibility can be controlled by visible with visible as initial value 2`] = `
+<span
+  class="m-design-tag m-design-tag-hidden"
+/>
+`;
+
+exports[`Tag visibility can be controlled by visible with visible as initial value 3`] = `
+<span
+  class="m-design-tag"
+/>
+`;

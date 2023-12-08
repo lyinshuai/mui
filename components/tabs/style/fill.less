@@ -1,0 +1,40 @@
+@import '../../style/themes/index';
+@import '../../style/mixins/index';
+
+@tab-prefix-cls: ~'@{ant-prefix}-tabs';
+
+.@{tab-prefix-cls}-fill {
+  > .@{tab-prefix-cls}-nav,
+  > div > .@{tab-prefix-cls}-nav {
+    .@{tab-prefix-cls}-tab {
+      margin: 0;
+      padding: @tabs-vertical @tabs-horizontal;
+      border-radius: @border-radius-base;
+      transition: all @animation-duration-slow @ease-in-out;
+
+      &-active {
+        background: @tabs-card-head-bg;
+      }
+    }
+
+    .@{tab-prefix-cls}-ink-bar {
+      visibility: hidden;
+    }
+  }
+
+  .@{tab-prefix-cls}-tab:hover:not(.@{tab-prefix-cls}-tab-disabled):not(.@{tab-prefix-cls}-tab-active) {
+    background: @tabs-card-head-bg;
+  }
+
+  // ========================== Top & Bottom ==========================
+
+  &.@{tab-prefix-cls}-top,
+  &.@{tab-prefix-cls}-bottom {
+    > .@{tab-prefix-cls}-nav,
+    > div > .@{tab-prefix-cls}-nav {
+      &::before {
+        border-bottom: @border-width-base @border-style-base transparent;
+      }
+    }
+  }
+}

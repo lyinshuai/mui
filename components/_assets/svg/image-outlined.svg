@@ -1,0 +1,12 @@
+<svg width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <path id="prefix__a" d="M0 0h28v28H0z" />
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path
+            d="M10.45 8.372v2.813H7.636V8.372h2.812zM18.883 19.622h-7.29a.282.282 0 01-.075-.01l-4.01-.01a.281.281 0 01-.2-.481l3.875-3.874a.375.375 0 01.53 0l1.788 1.787 4.742-4.74a.375.375 0 01.64.264v7.064z"
+            fill="#86909C" fill-rule="nonzero" />
+        <path d="M22 5a1 1 0 011 1v17a1 1 0 01-1 1H5a1 1 0 01-1-1V6a1 1 0 011-1h17zm-.9 1.9H5.9v15.2h15.2V6.9z"
+            fill="#86909C" />
+    </g>
+</svg>

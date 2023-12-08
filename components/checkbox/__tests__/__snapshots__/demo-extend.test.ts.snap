@@ -1,0 +1,726 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/checkbox/demo/basic.md extend context correctly 1`] = `
+<label
+  class="m-design-checkbox-wrapper"
+>
+  <span
+    class="m-design-checkbox"
+  >
+    <input
+      class="m-design-checkbox-input"
+      type="checkbox"
+    />
+    <span
+      class="m-design-checkbox-inner"
+    />
+  </span>
+  <span>
+    Checkbox
+  </span>
+</label>
+`;
+
+exports[`renders ./components/checkbox/demo/check-all.md extend context correctly 1`] = `
+Array [
+  <label
+    class="m-design-checkbox-wrapper"
+  >
+    <span
+      class="m-design-checkbox m-design-checkbox-indeterminate"
+    >
+      <input
+        class="m-design-checkbox-input"
+        type="checkbox"
+      />
+      <span
+        class="m-design-checkbox-inner"
+      />
+    </span>
+    <span>
+      Check all
+    </span>
+  </label>,
+  <div
+    class="m-design-divider m-design-divider-horizontal"
+    role="separator"
+  />,
+  <div
+    class="m-design-checkbox-group"
+  >
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-wrapper-checked m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox m-design-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="m-design-checkbox-input"
+          type="checkbox"
+          value="Apple"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Apple
+      </span>
+    </label>
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox"
+      >
+        <input
+          class="m-design-checkbox-input"
+          type="checkbox"
+          value="Pear"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Pear
+      </span>
+    </label>
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-wrapper-checked m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox m-design-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="m-design-checkbox-input"
+          type="checkbox"
+          value="Orange"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Orange
+      </span>
+    </label>
+  </div>,
+]
+`;
+
+exports[`renders ./components/checkbox/demo/controller.md extend context correctly 1`] = `
+Array [
+  <p
+    style="margin-bottom:20px"
+  >
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-wrapper-checked"
+    >
+      <span
+        class="m-design-checkbox m-design-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="m-design-checkbox-input"
+          type="checkbox"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Checked-Enabled
+      </span>
+    </label>
+  </p>,
+  <p>
+    <button
+      class="m-design-btn m-design-btn-primary m-design-btn-sm"
+      type="button"
+    >
+      <span>
+        Uncheck
+      </span>
+    </button>
+    <button
+      class="m-design-btn m-design-btn-primary m-design-btn-sm"
+      style="margin:0 10px"
+      type="button"
+    >
+      <span>
+        Disable
+      </span>
+    </button>
+  </p>,
+]
+`;
+
+exports[`renders ./components/checkbox/demo/debug-line.md extend context correctly 1`] = `
+<div>
+  <div
+    class="m-design-space m-design-space-horizontal m-design-space-align-center"
+    style="border:1px solid red;margin-bottom:16px"
+  >
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <label
+        class="m-design-checkbox-wrapper"
+      >
+        <span
+          class="m-design-checkbox"
+        >
+          <input
+            class="m-design-checkbox-input"
+            type="checkbox"
+            value="light"
+          />
+          <span
+            class="m-design-checkbox-inner"
+          />
+        </span>
+      </label>
+    </div>
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <div>
+        Bamboo
+      </div>
+    </div>
+    <div
+      class="m-design-space-item"
+    >
+      <label
+        class="m-design-checkbox-wrapper"
+      >
+        <span
+          class="m-design-checkbox"
+        >
+          <input
+            class="m-design-checkbox-input"
+            type="checkbox"
+            value="little"
+          />
+          <span
+            class="m-design-checkbox-inner"
+          />
+        </span>
+        <span>
+          Little
+        </span>
+      </label>
+    </div>
+  </div>
+  <div
+    class="m-design-space m-design-space-horizontal m-design-space-align-center"
+    style="border:1px solid red;margin-bottom:16px"
+  >
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <label
+        class="m-design-radio-wrapper"
+      >
+        <span
+          class="m-design-radio"
+        >
+          <input
+            class="m-design-radio-input"
+            type="radio"
+            value="light"
+          />
+          <span
+            class="m-design-radio-inner"
+          />
+        </span>
+      </label>
+    </div>
+    <div
+      class="m-design-space-item"
+      style="margin-right:8px"
+    >
+      <div>
+        Bamboo
+      </div>
+    </div>
+    <div
+      class="m-design-space-item"
+    >
+      <label
+        class="m-design-radio-wrapper"
+      >
+        <span
+          class="m-design-radio"
+        >
+          <input
+            class="m-design-radio-input"
+            type="radio"
+            value="little"
+          />
+          <span
+            class="m-design-radio-inner"
+          />
+        </span>
+        <span>
+          Little
+        </span>
+      </label>
+    </div>
+  </div>
+  <div
+    style="border:1px solid red;margin-bottom:16px;display:flex;align-items:center"
+  >
+    <label
+      class="m-design-checkbox-wrapper"
+    >
+      <span
+        class="m-design-checkbox"
+      >
+        <input
+          class="m-design-checkbox-input"
+          type="checkbox"
+          value="light"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+    </label>
+    <div>
+      Bamboo
+    </div>
+    <label
+      class="m-design-checkbox-wrapper"
+    >
+      <span
+        class="m-design-checkbox"
+      >
+        <input
+          class="m-design-checkbox-input"
+          type="checkbox"
+          value="little"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Little
+      </span>
+    </label>
+  </div>
+  <div
+    style="border:1px solid red;margin-bottom:16px;display:flex;align-items:center"
+  >
+    <label
+      class="m-design-radio-wrapper"
+    >
+      <span
+        class="m-design-radio"
+      >
+        <input
+          class="m-design-radio-input"
+          type="radio"
+          value="light"
+        />
+        <span
+          class="m-design-radio-inner"
+        />
+      </span>
+    </label>
+    <div>
+      Bamboo
+    </div>
+    <label
+      class="m-design-radio-wrapper"
+    >
+      <span
+        class="m-design-radio"
+      >
+        <input
+          class="m-design-radio-input"
+          type="radio"
+          value="little"
+        />
+        <span
+          class="m-design-radio-inner"
+        />
+      </span>
+      <span>
+        Little
+      </span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/checkbox/demo/disabled.md extend context correctly 1`] = `
+Array [
+  <label
+    class="m-design-checkbox-wrapper m-design-checkbox-wrapper-disabled"
+  >
+    <span
+      class="m-design-checkbox m-design-checkbox-disabled"
+    >
+      <input
+        class="m-design-checkbox-input"
+        disabled=""
+        type="checkbox"
+      />
+      <span
+        class="m-design-checkbox-inner"
+      />
+    </span>
+  </label>,
+  <br />,
+  <label
+    class="m-design-checkbox-wrapper m-design-checkbox-wrapper-disabled"
+  >
+    <span
+      class="m-design-checkbox m-design-checkbox-checked m-design-checkbox-disabled"
+    >
+      <input
+        checked=""
+        class="m-design-checkbox-input"
+        disabled=""
+        type="checkbox"
+      />
+      <span
+        class="m-design-checkbox-inner"
+      />
+    </span>
+  </label>,
+]
+`;
+
+exports[`renders ./components/checkbox/demo/group.md extend context correctly 1`] = `
+Array [
+  <div
+    class="m-design-checkbox-group"
+  >
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-wrapper-checked m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox m-design-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="m-design-checkbox-input"
+          type="checkbox"
+          value="Apple"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Apple
+      </span>
+    </label>
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox"
+      >
+        <input
+          class="m-design-checkbox-input"
+          type="checkbox"
+          value="Pear"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Pear
+      </span>
+    </label>
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox"
+      >
+        <input
+          class="m-design-checkbox-input"
+          type="checkbox"
+          value="Orange"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Orange
+      </span>
+    </label>
+  </div>,
+  <br />,
+  <br />,
+  <div
+    class="m-design-checkbox-group"
+  >
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox"
+      >
+        <input
+          class="m-design-checkbox-input"
+          type="checkbox"
+          value="Apple"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Apple
+      </span>
+    </label>
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-wrapper-checked m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox m-design-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="m-design-checkbox-input"
+          type="checkbox"
+          value="Pear"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Pear
+      </span>
+    </label>
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox"
+      >
+        <input
+          class="m-design-checkbox-input"
+          type="checkbox"
+          value="Orange"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Orange
+      </span>
+    </label>
+  </div>,
+  <br />,
+  <br />,
+  <div
+    class="m-design-checkbox-group"
+  >
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-wrapper-checked m-design-checkbox-wrapper-disabled m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox m-design-checkbox-checked m-design-checkbox-disabled"
+      >
+        <input
+          checked=""
+          class="m-design-checkbox-input"
+          disabled=""
+          type="checkbox"
+          value="Apple"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Apple
+      </span>
+    </label>
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-wrapper-disabled m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox m-design-checkbox-disabled"
+      >
+        <input
+          class="m-design-checkbox-input"
+          disabled=""
+          type="checkbox"
+          value="Pear"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Pear
+      </span>
+    </label>
+    <label
+      class="m-design-checkbox-wrapper m-design-checkbox-wrapper-disabled m-design-checkbox-group-item"
+    >
+      <span
+        class="m-design-checkbox m-design-checkbox-disabled"
+      >
+        <input
+          class="m-design-checkbox-input"
+          disabled=""
+          type="checkbox"
+          value="Orange"
+        />
+        <span
+          class="m-design-checkbox-inner"
+        />
+      </span>
+      <span>
+        Orange
+      </span>
+    </label>
+  </div>,
+]
+`;
+
+exports[`renders ./components/checkbox/demo/layout.md extend context correctly 1`] = `
+<div
+  class="m-design-checkbox-group"
+  style="width:100%"
+>
+  <div
+    class="m-design-row"
+  >
+    <div
+      class="m-design-col m-design-col-8"
+    >
+      <label
+        class="m-design-checkbox-wrapper"
+      >
+        <span
+          class="m-design-checkbox"
+        >
+          <input
+            class="m-design-checkbox-input"
+            type="checkbox"
+            value="A"
+          />
+          <span
+            class="m-design-checkbox-inner"
+          />
+        </span>
+        <span>
+          A
+        </span>
+      </label>
+    </div>
+    <div
+      class="m-design-col m-design-col-8"
+    >
+      <label
+        class="m-design-checkbox-wrapper"
+      >
+        <span
+          class="m-design-checkbox"
+        >
+          <input
+            class="m-design-checkbox-input"
+            type="checkbox"
+            value="B"
+          />
+          <span
+            class="m-design-checkbox-inner"
+          />
+        </span>
+        <span>
+          B
+        </span>
+      </label>
+    </div>
+    <div
+      class="m-design-col m-design-col-8"
+    >
+      <label
+        class="m-design-checkbox-wrapper"
+      >
+        <span
+          class="m-design-checkbox"
+        >
+          <input
+            class="m-design-checkbox-input"
+            type="checkbox"
+            value="C"
+          />
+          <span
+            class="m-design-checkbox-inner"
+          />
+        </span>
+        <span>
+          C
+        </span>
+      </label>
+    </div>
+    <div
+      class="m-design-col m-design-col-8"
+    >
+      <label
+        class="m-design-checkbox-wrapper"
+      >
+        <span
+          class="m-design-checkbox"
+        >
+          <input
+            class="m-design-checkbox-input"
+            type="checkbox"
+            value="D"
+          />
+          <span
+            class="m-design-checkbox-inner"
+          />
+        </span>
+        <span>
+          D
+        </span>
+      </label>
+    </div>
+    <div
+      class="m-design-col m-design-col-8"
+    >
+      <label
+        class="m-design-checkbox-wrapper"
+      >
+        <span
+          class="m-design-checkbox"
+        >
+          <input
+            class="m-design-checkbox-input"
+            type="checkbox"
+            value="E"
+          />
+          <span
+            class="m-design-checkbox-inner"
+          />
+        </span>
+        <span>
+          E
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
+`;
